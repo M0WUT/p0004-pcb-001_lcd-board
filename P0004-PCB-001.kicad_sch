@@ -3611,7 +3611,18 @@
 					)
 				)
 			)
-			(property "MPN" "https://www.we-online.com/components/products/datasheet/156125M173000.pdf"
+			(property "MPN" "156125M173000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Order #" "C5341671"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4070,7 +4081,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4081,7 +4092,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Switch cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Khon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SC109AM1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Order #" "C42435457"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4837,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
 			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4848,7 +4892,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch cap"
+			(at 60.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Khon"
+			(at 60.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC109AM1"
+			(at 60.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C42435457"
 			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5683,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
 			(at 78.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5694,7 +5771,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch cap"
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Khon"
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC109AM1"
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C42435457"
 			(at 78.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5790,7 +5900,18 @@
 				)
 			)
 		)
-		(property "MPN" "https://www.we-online.com/components/products/datasheet/156125M173000.pdf"
+		(property "MPN" "156125M173000"
+			(at 201.93 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C5341671"
 			(at 201.93 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6282,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6293,7 +6414,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch cap"
+			(at 114.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Khon"
+			(at 114.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC109AM1"
+			(at 114.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C42435457"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +6994,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch cap"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Khon"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC109AM1"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C42435457"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6985,6 +7172,52 @@
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
 					(reference "CN2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 267.97 179.07)
+		(size 101.6 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "35d58bcc-6ce4-4583-93f1-63aee4dbfc17")
+		(property "Sheetname" "Power Supplies"
+			(at 267.97 178.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 267.97 217.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
+					(page "4")
 				)
 			)
 		)

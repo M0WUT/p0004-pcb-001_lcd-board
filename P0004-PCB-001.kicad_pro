@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -508,8 +521,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -648,7 +661,7 @@
         "uuid": "acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
       }
     ],
-    "used_designators": "CN1-5,D1,H1-17,SW1-4,LD1,ZF1,U1-4",
+    "used_designators": "CN1-5,L1,D1-2,H1-17,SW1-4,LD1-2,ZF1,U1-6,C1-10,#PWR1-14,R1-11,F1-3,ZD1-2,Q1",
     "variants": []
   },
   "sheets": [
@@ -663,6 +676,10 @@
     [
       "a36ad431-c50e-45e1-982c-a7ffb7390ea7",
       "Microcontroller"
+    ],
+    [
+      "35d58bcc-6ce4-4583-93f1-63aee4dbfc17",
+      "Power Supplies"
     ]
   ],
   "text_variables": {

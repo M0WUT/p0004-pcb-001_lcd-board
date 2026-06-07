@@ -171,7 +171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -182,7 +182,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -205,10 +205,63 @@
 				)
 			)
 		)
+		(property "Manufacturer" "ST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95b1d62b-28be-45cc-83ff-9f72b9b9400a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STM32H743VIT6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4dfa15-6594-40b3-b629-29409359a116")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C114409"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "778c55b0-c5b5-4686-8c4e-d75c53ee0b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LQFP*14x14mm*P0.5mm*")
 		(path "/a36ad431-c50e-45e1-982c-a7ffb7390ea7/e68a6f8c-f4c3-4a9c-b21f-1240a08e8597")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "14" "94" "20" "12" "13" "97" "98" "1" "2" "3" "4" "5" "37" "38"
+					"39" "40" "41" "42" "43" "44" "45" "81" "82" "83" "84" "85" "86" "87"
+					"88" "55" "56" "57" "58" "59" "60" "61" "62" "48" "73" "6" "11" "27"
+					"50" "10" "99" "74" "26" "49" "75" "19" "100" "21" "22" "23" "24" "25"
+					"28" "29" "30" "31" "67" "68" "69" "70" "71" "72" "76" "77" "34" "35"
+					"36" "89" "90" "91" "92" "93" "95" "96" "46" "47" "51" "52" "53" "54"
+					"15" "16" "17" "18" "32" "33" "63" "64" "65" "66" "78" "79" "80" "7"
+					"8" "9"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1605,7 +1658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6344f1a8-179e-471f-b3bc-2d37e59825ff")
+			(uuid "0122dd73-7779-430c-a97f-0805f04ad3e1")
 			(effects
 				(font
 					(size 1 1)
@@ -1618,7 +1671,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1581a328-2588-4c20-811d-e55b06764a11")
+			(uuid "e6f9e38e-942e-432c-8864-568d2709f931")
 			(effects
 				(font
 					(size 1 1)
@@ -2143,7 +2196,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6f3e47c-3124-4556-b606-9c6ed3b8546d")
+			(uuid "16c2346e-2b30-49c0-b545-afa043405eb3")
 			(effects
 				(font
 					(size 1 1)
@@ -2156,7 +2209,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97d53195-171a-40fb-9a51-eef9b3e864c5")
+			(uuid "be8bc280-bd4f-485b-8491-2d9759a12e4f")
 			(effects
 				(font
 					(size 1 1)
@@ -2169,7 +2222,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b862fc1e-572d-4962-aa99-e2a8d20f17c3")
+			(uuid "93df6808-3ae1-46de-b1ab-5a112c9c72f6")
 			(effects
 				(font
 					(size 1 1)
@@ -2498,7 +2551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/156125M173000.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2511,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse mount RGB LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2524,9 +2577,41 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Wuerth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17530528-6ee4-42d1-a63e-eea45a6804af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "https://www.we-online.com/components/products/datasheet/156125M173000.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d46bb4-096c-44a5-a0e8-5d5ce7347d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8fc1490d-019b-4fa7-a9e6-7addcbe60722")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2710,7 +2795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2721,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2744,10 +2829,59 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Wiznet"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c159e0d-59a8-4eb5-b8fb-5dc41816c5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "W5500"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69362b59-0646-481c-b7d4-9e260bae99ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "     C32843"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0f1276f-cd7b-49db-b485-ddf0e30e7169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LQFP*7x7mm*P0.5mm*")
 		(path "/c297e570-2dc0-430e-8e38-cdf697c9ef1a/4d832bb2-3940-4eb2-93ac-45f30a2041f1")
 		(sheetname "/Ethernet/")
 		(sheetfile "ethernet.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "32" "33" "34" "35" "36" "37" "45" "44" "43" "30" "31" "38" "39"
+					"40" "41" "42" "23" "28" "29" "21" "4" "8" "11" "15" "17" "3" "9" "14"
+					"16" "19" "48" "7" "12" "13" "46" "47" "1" "2" "5" "6" "24" "25" "26"
+					"27" "10" "18" "20" "22"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3628,7 +3762,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a04a2892-55e6-42a0-9388-2b91ac9de578")
+			(uuid "e8c5a7f7-7278-4bdf-95d1-2cc07523cecc")
 			(effects
 				(font
 					(size 1 1)
@@ -3641,7 +3775,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b19ac56-379f-4941-a679-c068e8999e54")
+			(uuid "e1b4bb9e-4f76-44f8-af98-7dacef6443ab")
 			(effects
 				(font
 					(size 1 1)
@@ -3654,7 +3788,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab33ade5-e2c7-416a-af87-c6a9db5f938c")
+			(uuid "0120c154-a64e-46c0-9a53-d454117fdfee")
 			(effects
 				(font
 					(size 1 1)
@@ -3905,7 +4039,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00a7e3be-27bd-4012-9a49-8090fcef7120")
+			(uuid "76590653-e73e-42d5-887c-c050f65c00b4")
 			(effects
 				(font
 					(size 1 1)
@@ -3918,7 +4052,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2925b4d-4b7b-456b-9fd7-885ffe2c33f9")
+			(uuid "1eb92c3c-c9cd-445a-8f2d-6f05e43ccdf2")
 			(effects
 				(font
 					(size 1 1)
@@ -3931,7 +4065,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12834064-960b-4cce-9c3c-3a1309d96a22")
+			(uuid "b9c9601a-a9db-40c6-9dff-5d795ca45600")
 			(effects
 				(font
 					(size 1 1)
@@ -4474,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4485,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 pin 0.1\" header"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4508,10 +4642,42 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c9470b6-f396-4aa6-b9b9-3f8a2ce3420e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M20-9990346"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20a89685-2b16-4592-a7d5-73160ca4999f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a36ad431-c50e-45e1-982c-a7ffb7390ea7/d7d67abb-45b0-49ca-ae7d-238b252ccc90")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr through_hole)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -4721,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/24AA256UID-256K-I2C-Serial-EEPROM-with-EUI48-EUI64-20005215D.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4732,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "256kbit I2C EEPROM with UUID64"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4755,9 +4921,54 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Microchip"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "736e84d8-a3a6-439c-97e4-652393bfd522")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "24AA256UIDT-I/ST"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0491ee0-92af-42b9-9026-3f21d2794a26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C619926"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac49a616-ac40-4eeb-bab6-dd9332ec971c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a36ad431-c50e-45e1-982c-a7ffb7390ea7/cb3c24e8-3571-4c67-9555-ae8df121ff2b")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "6" "7" "8" "4" "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5134,7 +5345,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5415a64d-8608-4219-af2b-d028d1cfb802")
+			(uuid "e7cf7700-3cd0-4d6b-b32c-08dd334eb86c")
 			(effects
 				(font
 					(size 1 1)
@@ -5147,7 +5358,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bcffbd6-045e-467b-a119-245be3f857fa")
+			(uuid "6c35ef71-4f98-45e2-9403-926b04509b8b")
 			(effects
 				(font
 					(size 1 1)
@@ -5986,7 +6197,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "51f0d11a-4194-40e4-9772-a4e0978fa065")
+			(uuid "a09fc9ef-b4bc-45b8-9c32-2b006941f3bb")
 			(effects
 				(font
 					(size 1 1)
@@ -6000,7 +6211,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ed0bf28b-232e-4d9f-97ed-693f0958ae1d")
+			(uuid "4f24e89b-78f9-4256-9fdf-45563cdea9f2")
 			(effects
 				(font
 					(size 1 1)
@@ -6099,7 +6310,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105057/1050570001_sd.pdf?inline"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6113,7 +6324,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB A Socket TH Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6127,10 +6338,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8cf06bc5-288a-41fd-b291-3a8f68b80924")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "105057-0001"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1305d671-ed3c-4b92-90b5-d04b14da6c0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/9a199d03-91df-4442-b248-61e1ae55970c")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "5" "1" "3" "2" "4")
+			)
+		)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -6.7 3)
@@ -6459,7 +6704,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "866cb690-a534-47a0-b477-616e00290b40")
+			(uuid "f7989af1-1959-4df0-8ddd-21758090cc87")
 			(effects
 				(font
 					(size 1 1)
@@ -6473,7 +6718,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4990dde7-3a34-4a03-ae6c-7969214b0391")
+			(uuid "78477da1-0fff-4e18-baec-8eac6868864d")
 			(effects
 				(font
 					(size 1 1)
@@ -6604,7 +6849,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bf61e9ac-a918-44b6-ae57-636fcf2c7855")
+			(uuid "a1eb419c-6f7c-4896-98eb-a23ab0fa9aa8")
 			(effects
 				(font
 					(size 1 1)
@@ -6618,7 +6863,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bb481b2d-7d91-4f63-866d-0b7dc4ddcaad")
+			(uuid "755dc4c8-6fca-4468-ac3b-9b0d8dab94e5")
 			(effects
 				(font
 					(size 1 1)
@@ -6750,7 +6995,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1dcb3d52-d9e5-4679-a252-834e2e4e7a40")
+			(uuid "a5fec2ab-97f0-45af-af7e-f90f83bcd3da")
 			(effects
 				(font
 					(size 1 1)
@@ -6764,7 +7009,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8d5bc7fd-fbc5-4127-a5ed-28f2bde90376")
+			(uuid "43061fb9-094e-4572-ba32-ceb11787c955")
 			(effects
 				(font
 					(size 1 1)
@@ -7628,7 +7873,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Khon TSA06131-100B332CA"
+		(property "Value" "Khon TSB06331-090D332DA-R0500"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7642,7 +7887,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7656,7 +7901,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 6x6mm Tactile Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7670,9 +7915,43 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Khon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6f02ce3-7c8c-4f73-ba98-a4b587ed4655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "TSB06331-090D332DA-R0500"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c509e47d-79f2-4288-a948-8c06e066c86d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/96639051-c788-4133-98e0-6f027bb70264")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7879,7 +8158,7 @@
 				(pins)
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7993,7 +8272,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca733131-f233-4732-9a8f-df23d3058648")
+			(uuid "4f207b47-b2e2-479f-bf90-226fcb44ddce")
 			(effects
 				(font
 					(size 1 1)
@@ -8007,7 +8286,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "01986bf2-3d8c-42ca-bc81-907aafb6d3dc")
+			(uuid "77b40a45-7d5d-4009-9a87-4f1043b6c426")
 			(effects
 				(font
 					(size 1 1)
@@ -8138,7 +8417,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08f71e84-6940-4181-bc4c-ab43e6853512")
+			(uuid "88704777-8e97-4840-89b4-a75c8632669a")
 			(effects
 				(font
 					(size 1 1)
@@ -8152,7 +8431,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6d6f4b1-ae81-484c-9f40-cc768dd3649d")
+			(uuid "953d5ee6-4161-42dc-a902-7bfb578ae362")
 			(effects
 				(font
 					(size 1 1)
@@ -8288,7 +8567,7 @@
 				(pins)
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8407,7 +8686,7 @@
 				(pins)
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8521,7 +8800,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "adf7ba28-ed70-4843-9c8e-356886db27cf")
+			(uuid "b162e244-84e0-4bed-b057-624b68ea1019")
 			(effects
 				(font
 					(size 1 1)
@@ -8535,7 +8814,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "89eaf2fc-d8c2-4903-8a7a-b606c90ca92b")
+			(uuid "d8a87f67-908d-443d-80aa-1696f433f079")
 			(effects
 				(font
 					(size 1 1)
@@ -8619,7 +8898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Khon TSA06131-100B332CA"
+		(property "Value" "Khon TSB06331-090D332DA-R0500"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8633,7 +8912,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8647,7 +8926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 6x6mm Tactile Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8661,9 +8940,43 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Khon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91f98ca2-0ce8-43ba-a9e8-0f312cad03c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "TSB06331-090D332DA-R0500"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2f9de03-41c1-4323-a91f-36449d3c0806")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/01937af4-cb40-47c6-940c-2fb339e97e25")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8865,7 +9178,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "841e0755-909b-49e0-ab6a-9e596a268961")
+			(uuid "4dc2abac-23b2-4d15-b914-84c8d22d300f")
 			(effects
 				(font
 					(size 1 1)
@@ -8879,7 +9192,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d118a4c5-8f99-43d7-bd5b-f9458936b9d6")
+			(uuid "2eca732f-902a-4b66-ad2b-e782b2a4ae96")
 			(effects
 				(font
 					(size 1 1)
@@ -9010,7 +9323,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c9232ad-479c-417f-8893-bcd2c650ec14")
+			(uuid "0046d579-5a61-4e5f-bb6a-17ce32094f61")
 			(effects
 				(font
 					(size 1 1)
@@ -9024,7 +9337,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a2bc9fc-e6c9-45d4-a321-872c77903006")
+			(uuid "7c9f5b50-3dca-4b7d-b03b-22be9082fbb1")
 			(effects
 				(font
 					(size 1 1)
@@ -9160,7 +9473,7 @@
 				(pins)
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr exclude_from_pos_files allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9227,7 +9540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Khon TSA06131-100B332CA"
+		(property "Value" "Khon TSB06331-090D332DA-R0500"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9241,7 +9554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9255,7 +9568,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 6x6mm Tactile Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9269,9 +9582,43 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Khon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f25003d-7a3c-4efc-873f-d755f8f57fad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "TSB06331-090D332DA-R0500"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8127a08f-4869-459d-83ab-643d4be53a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/b2ae578c-5434-4b47-98e3-62a8e6c759df")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9426,7 +9773,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Khon TSA06131-100B332CA"
+		(property "Value" "Khon TSB06331-090D332DA-R0500"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9440,7 +9787,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9454,7 +9801,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 6x6mm Tactile Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9468,9 +9815,43 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Khon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "169b540f-e943-4363-839f-2414c435bf94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "TSB06331-090D332DA-R0500"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eff179e8-db09-4dd4-8fd1-ab31e7b6428e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22b47c10-7d70-4b4d-bad4-5927587d5b5e")
 		(sheetname "/")
 		(sheetfile "P0004-PCB-001.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

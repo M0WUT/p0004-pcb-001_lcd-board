@@ -2,3 +2,5 @@
 *.lck
 *backups*/
 *.kicad_prl
+**/ibom.html
+*_autosave*

@@ -3907,6 +3907,412 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_WUT:0V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0V_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "0V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 198.12 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b2e0877-fff0-477c-86b3-390dc37c28f8")
+	)
+	(junction
+		(at 203.2 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7046af10-3dd1-41e8-86b0-c56a0c22b8bd")
+	)
+	(junction
+		(at 200.66 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f9a5d3c-dabc-48f9-808d-b396f1851b1a")
+	)
+	(junction
+		(at 205.74 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0cea54a-124f-4797-90a0-abf17960f43e")
+	)
+	(wire
+		(pts
+			(xy 198.12 213.36) (xy 198.12 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232466cd-0ec6-4f48-8965-305a5be7e92d")
+	)
+	(wire
+		(pts
+			(xy 213.36 210.82) (xy 213.36 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279cd91c-b62c-4c94-bae6-b8b482dd24a3")
+	)
+	(wire
+		(pts
+			(xy 200.66 213.36) (xy 203.2 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d223fe5-0937-4ff3-b816-987f5f739dad")
+	)
+	(wire
+		(pts
+			(xy 205.74 213.36) (xy 208.28 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bd21cb-c9f4-42b5-802c-6ad7d966363c")
+	)
+	(wire
+		(pts
+			(xy 203.2 210.82) (xy 203.2 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595d6815-b754-4df2-9bdc-3ef1f507df91")
+	)
+	(wire
+		(pts
+			(xy 208.28 213.36) (xy 208.28 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6671c195-69ce-4af5-b376-d3f690e1ee8c")
+	)
+	(wire
+		(pts
+			(xy 198.12 210.82) (xy 198.12 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7353b329-697d-49bc-a53d-394ab38e7fa3")
+	)
+	(wire
+		(pts
+			(xy 203.2 213.36) (xy 205.74 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7814c3d1-5644-463b-9032-11b6a623e03a")
+	)
+	(wire
+		(pts
+			(xy 200.66 210.82) (xy 200.66 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be44842-ee5b-4d0f-a3a4-2110659bd1ac")
+	)
+	(wire
+		(pts
+			(xy 198.12 213.36) (xy 200.66 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918ae647-e23e-4f1d-bbcc-e0e1af1d7c47")
+	)
+	(wire
+		(pts
+			(xy 205.74 210.82) (xy 205.74 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bcf461-2e90-43e4-90e3-a28cba2a8da2")
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 213.36 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0627b750-4e21-4ee8-acc7-0008d0911201")
+		(property "Reference" "#PWR026"
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 213.36 218.44 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83896d4d-b3e4-4165-8049-1cbf246c2860")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 198.12 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5754fc51-ff68-488d-ab80-4f56ee8bb9b2")
+		(property "Reference" "#PWR025"
+			(at 198.12 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 198.12 218.44 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5e604a9-4106-415f-bcc3-89f4dc2fd2c8")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_WUT:Header_Samtec_FTSH-107-01-L-DV-K")
@@ -4298,7 +4704,7 @@
 	)
 	(symbol
 		(lib_id "IC_WUT:STM32H743VIT6")
-		(at 205.74 140.97 0)
+		(at 205.74 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4308,8 +4714,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68a6f8c-f4c3-4a9c-b21f-1240a08e8597")
-		(property "Reference" "U2"
-			(at 187.96 71.12 0)
+		(property "Reference" "U4"
+			(at 187.96 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4320,7 +4726,7 @@
 			)
 		)
 		(property "Value" "STM32H743VIT6"
-			(at 214.63 208.28 0)
+			(at 214.63 207.01 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4331,7 +4737,7 @@
 			)
 		)
 		(property "Footprint" "IC_WUT:LQFP-100_14x14mm_P0.5mm"
-			(at 187.96 207.01 0)
+			(at 187.96 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4749,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
-			(at 205.74 140.97 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4760,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
-			(at 205.74 140.97 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4771,7 @@
 			)
 		)
 		(property "Manufacturer" "ST"
-			(at 205.74 140.97 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4782,7 @@
 			)
 		)
 		(property "MPN" "STM32H743VIT6"
-			(at 205.74 140.97 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4793,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C114409"
-			(at 205.74 140.97 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +5106,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4718,7 +5124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecb98c3e-e61a-49d3-a203-b13fb9a4f9b0")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 127 63.5 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4829,7 +5235,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)

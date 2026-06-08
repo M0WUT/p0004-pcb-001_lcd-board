@@ -4754,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "264213e3-e879-46ca-a301-7a5d8c92c49d")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 59.69 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4832,7 +4832,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26cdbc5a-4b36-4e98-b4ca-018b83260cf4")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 60.96 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4939,7 +4939,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4957,7 +4957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33f09f98-b7b4-4ddb-936b-825f9d3c279d")
-		(property "Reference" "H11"
+		(property "Reference" "H9"
 			(at 96.52 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5035,7 +5035,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H11")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -5053,7 +5053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418cce29-0f2a-4725-97c2-4e830e5e6681")
-		(property "Reference" "H9"
+		(property "Reference" "H2"
 			(at 59.69 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5131,7 +5131,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H9")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5149,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ae871e-5033-4d05-b50b-bbdcd28c0ab1")
-		(property "Reference" "H10"
+		(property "Reference" "H5"
 			(at 77.47 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5227,7 +5227,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H10")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -5245,7 +5245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be9ec66-fc39-4cf4-90ac-3e716f612e41")
-		(property "Reference" "H8"
+		(property "Reference" "H11"
 			(at 114.3 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H8")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -5341,7 +5341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58520a1b-8c9a-4054-9499-fe1bf38ea425")
-		(property "Reference" "H7"
+		(property "Reference" "H8"
 			(at 96.52 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5419,7 +5419,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H7")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "Audio_WUT:HNDZ_MLT8530")
-		(at 267.97 147.32 0)
+		(at 266.7 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5438,7 +5438,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ce0ee69-7a96-4dc4-8da1-53c65f3a46dc")
 		(property "Reference" "LS1"
-			(at 273.05 147.3199 0)
+			(at 271.78 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Value" "HNDZ MLT8530"
-			(at 273.05 149.8599 0)
+			(at 271.78 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5460,7 +5460,7 @@
 			)
 		)
 		(property "Footprint" "Audio_WUT:HNDZ_MLT8530"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588881949994074112-C94599.pdf?response-content-disposition=attachment%3B%20filename%3DC94599.pdf%3B%20filename%2A%3DUTF-8%27%27C94599.pdf&x-oss-date=20260606T154850Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5n5IYju1Y9kxfunQ2f0skYvO%2B4VtZecgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAS7w1A4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhpDH8tN3tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIAGjL%2B6KWD5sagAFEQDONgaycLHLYJ9OE8%2FZjaXFts1t7emH6oRWEhY3rWteXUHjj41EzNWre8odwgMo6BFDtkADd7AiAper%2FazIkwQsNO6ZmdB46Bu32hqnpPFkN4PLaDvlVS1boV0Zqtfrcn1HjoIpuWa%2FGSxylcwHt%2BYbYxQSACHIHM%2BiBFC2JDyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZLj2Z8PEr9LAAEVFz7a9ZR7a%2F20260606%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=2cdda2966896dba1043c2287a453b14279a90852679b376f1c24650ecda25bf7"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Description" "Speaker, 8.5x8.5mm, 2.7kHz"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Manufacturer" "Jiangsu Huaneng Elec"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(property "MPN" "MLT-8530"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +5515,7 @@
 			)
 		)
 		(property "JLC Order Code" "C94599"
-			(at 267.97 147.32 0)
+			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,7 +5558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670ed592-abd1-4491-89eb-b24e285d63b9")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 77.47 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5636,7 +5636,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5729,7 +5729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ba4d6bc-f699-43b8-90e8-1aefb87c4b08")
-		(property "Reference" "H2"
+		(property "Reference" "H6"
 			(at 78.74 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H2")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e329d7-674a-4dab-8334-bd7daeb683df")
-		(property "Reference" "CN3"
+		(property "Reference" "CN2"
 			(at 196.85 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6242,7 +6242,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "CN3")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -6250,7 +6250,7 @@
 	)
 	(symbol
 		(lib_id "Connector_WUT:Molex_105057-0001")
-		(at 245.11 87.63 0)
+		(at 243.84 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6260,8 +6260,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a199d03-91df-4442-b248-61e1ae55970c")
-		(property "Reference" "CN1"
-			(at 245.11 83.82 0)
+		(property "Reference" "CN3"
+			(at 243.84 85.09 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6271,7 +6271,7 @@
 			)
 		)
 		(property "Value" "Molex 105057-0001"
-			(at 243.84 101.6 0)
+			(at 242.57 102.87 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6282,7 +6282,7 @@
 			)
 		)
 		(property "Footprint" "Connector_WUT:USB-A_Molex_105057-0001_TH_Vertical"
-			(at 245.11 87.63 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6293,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105057/1050570001_sd.pdf?inline"
-			(at 245.11 87.63 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Description" "USB A Socket TH Vertical"
-			(at 245.11 87.63 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6315,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 245.11 87.63 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6326,7 @@
 			)
 		)
 		(property "MPN" "105057-0001"
-			(at 245.11 87.63 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +6354,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "CN1")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f6009b5-76cc-443d-a396-fd8b741a1c90")
-		(property "Reference" "H4"
+		(property "Reference" "H10"
 			(at 114.3 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6461,7 +6461,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H4")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -6952,7 +6952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea1c741-3bb9-4085-8c49-a60c13e54e49")
-		(property "Reference" "H3"
+		(property "Reference" "H7"
 			(at 96.52 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7041,7 +7041,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H3")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4eab428-8856-42f9-aec5-f77922ddc741")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1"
 			(at 150.495 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,14 +7170,14 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "CN2")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 267.97 179.07)
+		(at 270.51 179.07)
 		(size 101.6 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7193,7 +7193,7 @@
 		)
 		(uuid "35d58bcc-6ce4-4583-93f1-63aee4dbfc17")
 		(property "Sheetname" "Power Supplies"
-			(at 267.97 178.3584 0)
+			(at 270.51 178.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7204,7 +7204,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 267.97 217.7546 0)
+			(at 270.51 217.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7212,6 +7212,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 270.51 189.23 180)
+			(uuid "f0115222-762c-4b08-8f49-a2d10a2c24e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_EXPANSION" output
+			(at 372.11 187.96 0)
+			(uuid "16b46095-6646-42be-bd4f-2a37e983663d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_AUX_SENSE_P" input
+			(at 270.51 198.12 180)
+			(uuid "bc7942ff-f1b6-439c-8880-bb23a0c7a1cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V_AUX_SENSE_N" input
+			(at 270.51 200.66 180)
+			(uuid "8e55e42a-12f5-47bf-85f1-ff5b6786dd83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PWR_FAULT_OD}" output
+			(at 372.11 193.04 0)
+			(uuid "0098f9eb-04f7-4a9d-bf97-524ac465a189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 270.51 185.42 180)
+			(uuid "6f6cfb3b-919b-4167-8ea8-596f2042becb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -7304,6 +7364,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ETH_RX_N" input
+			(at 187.96 175.26 0)
+			(uuid "5458bf40-3d4e-4a0e-a45f-c162a2e445c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TX_P" output
+			(at 187.96 165.1 0)
+			(uuid "69d59457-46ed-4d5f-8bc7-d085cab82b7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TX_N" output
+			(at 187.96 167.64 0)
+			(uuid "e8780c00-6ed8-4cbb-8961-1b7eb262b816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_RX_P" input
+			(at 187.96 172.72 0)
+			(uuid "38e624a4-3a97-4ba6-805f-7c3934228073")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 107.95 165.1 180)
+			(uuid "b95bae7d-5f50-45ab-af63-4ad468e9d863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ETH_PHY_INT}" output
+			(at 107.95 170.18 180)
+			(uuid "f90da3db-cfb0-4913-ad25-ab0b7dd687e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ETH_PHY_RST}" input
+			(at 107.95 167.64 180)
+			(uuid "5f514c17-ffa7-43a9-93ce-167728b101a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ETH_LINK_OD}" output
+			(at 187.96 180.34 0)
+			(uuid "8a488a61-113c-46b9-9671-b9f6f23f195a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{ETH_ACT_OD}" output
+			(at 187.96 182.88 0)
+			(uuid "2bbe9de0-1e2a-4bd3-99e9-3e552a6209e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

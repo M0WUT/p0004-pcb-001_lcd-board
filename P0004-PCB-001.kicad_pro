@@ -536,7 +536,12 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Power Supplies/VIN_SAFE": "rgb(0, 255, 0)",
+      "0V": "rgb(34, 252, 255)",
+      "3V3": "rgb(255, 130, 18)",
+      "5V": "rgb(255, 0, 27)"
+    },
     "netclass_assignments": {
       "/Ethernet/ETH_RX_N": [
         "Ethernet Diff Pair"
@@ -697,7 +702,7 @@
         "uuid": "acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
       }
     ],
-    "used_designators": "R24-25,LD3,D12,#PWR59",
+    "used_designators": "ZD2-3,L2,#PWR28,#PWR30-31,#PWR38,#PWR40,#PWR59-67,C28-33,U7,F4,LD4,R26-31",
     "variants": []
   },
   "sheets": [

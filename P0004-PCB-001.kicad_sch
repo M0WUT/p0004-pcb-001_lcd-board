@@ -4504,6 +4504,116 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_WUT:3V3"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at -0.635 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3V3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch_WUT:Khon_SC109AM1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4848,6 +4958,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 93.98) (xy 259.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a61eca-5d91-43b2-88a5-70b18272c4a9")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 259.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d5cfb7-bd55-4120-883d-c184194a2256")
+	)
+	(wire
+		(pts
 			(xy 123.19 54.61) (xy 123.19 52.07)
 		)
 		(stroke
@@ -4855,6 +4985,16 @@
 			(type default)
 		)
 		(uuid "216788cf-4053-42f2-ac26-f99b03a9d909")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3975ed4f-c5e1-4c46-a0ab-9c910767700c")
 	)
 	(wire
 		(pts
@@ -4986,6 +5126,16 @@
 		)
 		(uuid "dcd0e8ad-f177-4958-aa69-dc7a0d031a98")
 	)
+	(wire
+		(pts
+			(xy 256.54 88.9) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39e5780-fe15-409a-8a9e-4f4e348d8b22")
+	)
 	(symbol
 		(lib_id "Switch_WUT:Khon_TSB06331-090D332DA-R0500")
 		(at 78.74 96.52 0)
@@ -5096,7 +5246,7 @@
 	)
 	(symbol
 		(lib_id "Diode_WUT:ST_USBLC6-2P6")
-		(at 248.92 119.38 0)
+		(at 264.16 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5107,7 +5257,7 @@
 		(fields_autoplaced yes)
 		(uuid "172c00db-fe80-4d33-b139-7086f6a6f5d2")
 		(property "Reference" "D12"
-			(at 250.19 115.57 0)
+			(at 265.43 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5118,7 +5268,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 250.19 126.365 0)
+			(at 265.43 100.965 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5129,7 +5279,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 248.92 119.38 0)
+			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,7 +5290,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"
-			(at 248.92 119.38 0)
+			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 119.38 0)
+			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5312,7 @@
 			)
 		)
 		(property "Manufacturer" "ST"
-			(at 248.92 119.38 0)
+			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5173,7 +5323,7 @@
 			)
 		)
 		(property "MPN" "USBLC6-2P6"
-			(at 248.92 119.38 0)
+			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,6 +7661,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
 					(reference "ZF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 256.54 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee58d642-adf9-4551-ba64-71eac772955f")
+		(property "Reference" "#PWR028"
+			(at 255.905 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_VBUS"
+			(at 256.54 82.55 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4396deb-0d46-4607-90c1-ad1b19f24488")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

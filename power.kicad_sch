@@ -221,6 +221,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "IC_WUT:TPS2553DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TI TPS2553DBV"
+				(at 1.27 -16.51 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "IC_WUT:SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tps2553.pdf?ts=1781435090771"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.5A High-side Load switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS2553DBV"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Order #" "C55266"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS2553DBV_1_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_WUT:0V"
 			(power global)
 			(pin_numbers
@@ -847,6 +1063,392 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1002F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10k 1% 0402 0.1W Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RK73H1ETTP1002F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KOA Speer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rated Power" "0.1W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KOA Speer RK73H1ETTP1002F_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KOA Speer RK73H1ETTP1002F_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "aaa_tvs_zener_auto_wut:hongjiacheng  H5VND5U"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "5V"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-H5VND5U/C42413865"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5V SOD523 TVS Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "H5VND5U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.77mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "hongjiacheng  H5VND5U_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "hongjiacheng  H5VND5U_1_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.778 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "capacitor_auto_wut:Kemet C0402C150G5GACTU"
 			(pin_numbers
 				(hide yes)
@@ -1247,6 +1849,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "capacitor_auto_wut:TDK C3216X5R1E476M160AC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "47u"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "47u 20% 25V 1206 X5R Capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "C3216X5R1E476M160AC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.6mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TDK C3216X5R1E476M160AC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TDK C3216X5R1E476M160AC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.064)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.064)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fuse_auto_wut:Littelfuse 0467001.NR"
 			(pin_numbers
 				(hide yes)
@@ -1371,169 +2173,6 @@
 				)
 			)
 			(symbol "Littelfuse 0467001.NR_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "fuse_auto_wut:Littelfuse 0603L025"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "250mA"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "250mA PPTC 0603 Fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Littelfuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "0603L025"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.75mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Littelfuse 0603L025_0_1"
-				(rectangle
-					(start -2.54 0.762)
-					(end 2.54 -0.762)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Littelfuse 0603L025_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2344,211 +2983,22 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tvs_zener_auto_wut:onsemi MM3Z3V3ST1G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ZD"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "3V3"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/2028649.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3V3 SOD-323 Zener Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "onsemi"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "MM3Z3V3ST1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "onsemi MM3Z3V3ST1G_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "onsemi MM3Z3V3ST1G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "Fuse before current sense\nso current monitor can\ntell it's tripped."
+	(text "3V3 1A"
 		(exclude_from_sim no)
-		(at 207.01 58.42 0)
+		(at 115.57 40.64 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "18468b26-eadb-4554-9439-e2e1f7a3692a")
+		(uuid "1a5b6914-8c5e-41f1-be55-1306872fd7aa")
 	)
 	(text "Isat = 2.4A\nIrms = 1.6A"
 		(exclude_from_sim no)
-		(at 96.52 252.73 0)
+		(at 147.32 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,9 +3006,20 @@
 		)
 		(uuid "1f3f7970-7917-466d-bc4d-fa9fff67dc8d")
 	)
+	(text "IOSnom(mA) =\n23950V / (R_ILIM (kohm) ^ 0.977)\n= 556mA (Eqn 1)"
+		(exclude_from_sim no)
+		(at 99.06 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "263a5542-7cad-49b8-9d66-03efd2f60f17")
+	)
 	(text "Vfb = 0.8V\nVout = 0.8 * (1+47/15) = 3.307V"
 		(exclude_from_sim no)
-		(at 246.38 137.16 0)
+		(at 207.01 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,9 +3028,35 @@
 		)
 		(uuid "2b5690b9-dd75-40f4-93f1-1c7708769b0d")
 	)
+	(text "Vih = 1.1V so MCU IO is fine"
+		(exclude_from_sim no)
+		(at 73.66 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "2f178b4e-cff2-46d2-9eba-ad27a049c6e1")
+	)
+	(text "GRM21BR61E226ME44L\n"
+		(exclude_from_sim no)
+		(at 152.4 187.96 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 15 1)
+			)
+			(justify left)
+		)
+		(uuid "45fdf2c4-c0ae-4b6d-8f7f-a7f3df344f41")
+	)
 	(text "Table 8-1: 10uH recommended for 3V3 out.\nIout = 1A, Target 40% ripple -> Imax = 1.2A.\nAdd 50% margin -> Isat(min) = 1.8A."
 		(exclude_from_sim no)
-		(at 156.21 93.98 0)
+		(at 95.25 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,19 +3065,32 @@
 		)
 		(uuid "4768e1d6-75ef-4852-96df-a849918b7d83")
 	)
-	(text "Vshunt(max) = 163.8mV\nPart sized for 1A max"
+	(text "USB Load Switch"
 		(exclude_from_sim no)
-		(at 246.38 116.84 0)
+		(at 114.3 156.21 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "5681958f-963a-4637-ac61-6bb8d7df0206")
+	)
+	(text "Most of an attempt at 120uF\nrequired for USB downstream"
+		(exclude_from_sim no)
+		(at 130.81 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "852ce55a-91ce-47d6-8c26-933eaee7aa7d")
+		(uuid "7f3a558a-2c8c-4870-a646-733505e99fce")
 	)
 	(text "Vfb = 0.8V\nVout = 0.8 * (1+47/15) = 3.307V"
 		(exclude_from_sim no)
-		(at 142.24 276.86 0)
+		(at 207.01 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,9 +3099,20 @@
 		)
 		(uuid "95571155-58bb-46c9-8ba4-4ae389990fa2")
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 73.66 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5c62f56-9074-47eb-849d-1668f8378665")
+	)
 	(text "Isat = 2.4A\nIrms = 1.6A"
 		(exclude_from_sim no)
-		(at 200.66 113.03 0)
+		(at 147.32 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,19 +3120,32 @@
 		)
 		(uuid "a9c18471-82c2-4653-940f-fa8e583e6879")
 	)
-	(text "Vshunt(max) = 163.8mV\nPart sized for 1A max"
+	(text "5V 500mA"
 		(exclude_from_sim no)
-		(at 142.24 256.54 0)
+		(at 114.3 92.71 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b861c4d9-5991-401e-97c7-e9329237e42f")
+	)
+	(text "Datasheet recommends 15uH but that's\nan extra BOM item so trying 10uH for\nnow and may just add more output\ncapacitance."
+		(exclude_from_sim no)
+		(at 144.78 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "c0f68334-7be9-462c-96b5-33c463affb89")
+		(uuid "d5d9bc97-630c-4666-914d-d86fcfcf0001")
 	)
-	(text "Table 8-1: 10uH recommended for 3V3 out.\nIout = 1A, Target 40% ripple -> Imax = 1.2A.\nAdd 50% margin -> Isat(min) = 1.8A."
+	(text "Iout = 0.5A, Target 40% ripple -> Imax = 0.6A.\nAdd 50% margin -> Isat(min) = 0.9A."
 		(exclude_from_sim no)
-		(at 52.07 233.68 0)
+		(at 95.25 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2630,216 +3154,193 @@
 		)
 		(uuid "e54f0772-717d-4453-b72c-e0c894675fa7")
 	)
-	(text "Supply for\nexpansion board"
-		(exclude_from_sim no)
-		(at 265.43 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eac8954f-a9e3-478f-a487-e1bd5d663716")
-	)
 	(junction
-		(at 195.58 248.92)
+		(at 213.36 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0466ab77-3eff-4d19-bc30-26a5be633bd2")
 	)
 	(junction
-		(at 137.16 88.9)
+		(at 142.24 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06e16558-f6cd-4a22-ab61-a94669a9fe6b")
+		(uuid "0727f6e4-8a41-4e2f-978f-80ccbeaa1035")
 	)
 	(junction
-		(at 180.34 264.16)
+		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1df25586-5f12-47b2-b8a2-d7a852fc6e3d")
 	)
 	(junction
-		(at 271.78 109.22)
+		(at 154.94 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c7365b-169e-4315-aa32-6fd042fdffe5")
+	)
+	(junction
+		(at 185.42 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "345a044d-aaf8-47e1-bafb-12b9ab0f6e8f")
 	)
 	(junction
-		(at 121.92 248.92)
+		(at 86.36 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e60c59f-8ba8-4a27-be2e-fcd861016131")
+		(uuid "3ee0f1a7-478b-4f9c-a219-37b9a90f8040")
 	)
 	(junction
-		(at 88.9 248.92)
+		(at 139.7 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4015e7fb-ae39-414f-a86f-92a000c0b075")
 	)
 	(junction
-		(at 180.34 248.92)
+		(at 198.12 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "452088e0-4aa7-4eb0-a377-80e1d39fc4f8")
 	)
 	(junction
-		(at 193.04 109.22)
+		(at 139.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f345fd-193a-43a1-9df1-43b5cdd4561b")
 	)
 	(junction
-		(at 299.72 109.22)
+		(at 63.5 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bcc3235-21a8-4594-b315-26a3da92ea0c")
+		(uuid "64ff296c-d027-4cd5-958b-c4ea836ebdac")
 	)
 	(junction
-		(at 226.06 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53f0af11-dd92-4939-be53-71eebd163451")
-	)
-	(junction
-		(at 149.86 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63791dec-205f-491c-b481-76b370ad4a79")
-	)
-	(junction
-		(at 261.62 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "647d03f0-d4c5-43ab-ae5a-fdfc6d8c5f9b")
-	)
-	(junction
-		(at 50.8 243.84)
+		(at 101.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6517fea1-984e-40fc-8204-6bdf84361587")
 	)
 	(junction
-		(at 271.78 124.46)
+		(at 185.42 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "673908bd-359a-444d-81c4-b5f8edc9b3fd")
 	)
 	(junction
-		(at 213.36 109.22)
+		(at 172.72 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be5f6c4-bd8c-4468-97c8-e618e6311bdc")
+	)
+	(junction
+		(at 160.02 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "724edb1c-53c8-4461-b18d-8c53e4bf668d")
 	)
 	(junction
-		(at 284.48 124.46)
+		(at 142.24 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82d59283-85bf-4147-8b31-1b0ea80d83c7")
+	)
+	(junction
+		(at 198.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84cfa4fc-2243-4471-b227-26664615f7f9")
 	)
 	(junction
-		(at 134.62 104.14)
+		(at 45.72 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85dbaa87-1f31-4c5e-ab83-2ed507a84476")
 	)
 	(junction
-		(at 157.48 248.92)
+		(at 91.44 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8755236f-9461-45c7-8807-0b04cc243cf9")
+		(uuid "89c37278-cfcb-4bb8-8761-eaf609278b67")
 	)
 	(junction
-		(at 134.62 248.92)
+		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88fc99ae-6f38-4110-99f5-bbd31e981126")
+		(uuid "9039ed9a-cc9c-4ffd-8426-545e2fc9e42b")
 	)
 	(junction
-		(at 137.16 104.14)
+		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b98339b-e3ef-4feb-8ffd-816ac14a0d8f")
+		(uuid "a28f5c5c-5f12-40e6-aee1-2be6f7329581")
 	)
 	(junction
-		(at 144.78 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9feb771-b084-43d8-a5c4-834ba53d6d2c")
-	)
-	(junction
-		(at 167.64 248.92)
+		(at 185.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4e57bd7-5030-43bf-a2a1-d06307355402")
 	)
 	(junction
-		(at 309.88 109.22)
+		(at 167.64 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca960465-acd8-472f-a720-009b7fff09d7")
+		(uuid "c0968484-68f3-436f-b786-9955c1ac38d9")
 	)
 	(junction
-		(at 243.84 63.5)
+		(at 91.44 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d58e281e-d418-43ea-bc6a-a18df4ff5018")
+		(uuid "c9c9264f-d63e-44ed-9e57-fff9cfdf75be")
 	)
 	(junction
-		(at 223.52 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8196377-4bc0-434e-8534-1add28b4504d")
-	)
-	(junction
-		(at 109.22 248.92)
+		(at 160.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db9565a6-db43-4c98-9bc9-14527d40195b")
 	)
 	(junction
-		(at 256.54 63.5)
+		(at 215.9 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e23b808f-217e-4cfb-85f3-2f314ff1a298")
+		(uuid "e1eec237-03ae-4b07-9abf-6c11ddacbd1b")
 	)
 	(junction
-		(at 284.48 109.22)
+		(at 198.12 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e27c954a-3709-4708-99c2-f0f00906a98f")
 	)
 	(junction
-		(at 43.18 243.84)
+		(at 172.72 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2910d08-efce-4252-a33b-94a1b1a039d1")
+		(uuid "e8802c1d-f8c9-4d5d-8891-9235115bc426")
 	)
 	(junction
-		(at 167.64 264.16)
+		(at 185.42 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc9edb7-416f-446c-b4b8-19c8f8330eee")
 	)
 	(junction
-		(at 154.94 104.14)
+		(at 101.6 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f91b77f4-77b6-4b37-a8b3-c30eb2be28cc")
 	)
 	(wire
 		(pts
-			(xy 261.62 109.22) (xy 271.78 109.22)
+			(xy 215.9 127) (xy 215.9 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0218aec9-a4ae-4b58-acfa-681d2c203180")
+		(uuid "012acb10-9cd1-4a29-a618-d0b197c769ca")
 	)
 	(wire
 		(pts
-			(xy 213.36 109.22) (xy 223.52 109.22)
+			(xy 160.02 114.3) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 248.92) (xy 109.22 251.46)
+			(xy 160.02 58.42) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2859,17 +3360,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 248.92) (xy 157.48 248.92)
+			(xy 142.24 205.74) (xy 167.64 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "071d0dd3-db2b-496d-a64f-c39016156a47")
+		(uuid "08161ba5-2971-4c4d-b746-0d715de918ea")
 	)
 	(wire
 		(pts
-			(xy 167.64 251.46) (xy 167.64 248.92)
+			(xy 185.42 60.96) (xy 185.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +3380,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 109.22) (xy 284.48 109.22)
+			(xy 185.42 114.3) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 254) (xy 88.9 254)
+			(xy 124.46 63.5) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 137.16) (xy 284.48 139.7)
+			(xy 198.12 142.24) (xy 198.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 111.76) (xy 271.78 109.22)
+			(xy 185.42 116.84) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 195.58 109.22)
+			(xy 139.7 114.3) (xy 142.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 248.92) (xy 88.9 248.92)
+			(xy 124.46 58.42) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2939,17 +3440,17 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 109.22) (xy 309.88 111.76)
+			(xy 83.82 170.18) (xy 86.36 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16ce9a45-99e4-46bd-9dac-f4812f6e055b")
+		(uuid "112cbc27-5f56-48cd-998e-767e7bd955f3")
 	)
 	(wire
 		(pts
-			(xy 88.9 243.84) (xy 88.9 248.92)
+			(xy 139.7 53.34) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 248.92) (xy 121.92 248.92)
+			(xy 160.02 58.42) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 248.92) (xy 180.34 248.92)
+			(xy 185.42 58.42) (xy 198.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2979,17 +3480,27 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 109.22)
+			(xy 154.94 177.8) (xy 154.94 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ebaa139-aaca-4636-afe3-8c36dff7a904")
+		(uuid "1f102d50-e0df-40c5-afe2-1a3ce898589b")
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 154.94 109.22)
+			(xy 215.9 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc1ffb4-7311-421c-971d-e273e60737b9")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 101.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2999,17 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 137.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22495859-b829-4104-8d39-2e20d2581d57")
-	)
-	(wire
-		(pts
-			(xy 50.8 248.92) (xy 53.34 248.92)
+			(xy 101.6 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 248.92) (xy 208.28 248.92)
+			(xy 213.36 58.42) (xy 215.9 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 193.04 104.14)
+			(xy 137.16 109.22) (xy 139.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 124.46) (xy 271.78 121.92)
+			(xy 185.42 129.54) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 144.78 106.68)
+			(xy 91.44 109.22) (xy 91.44 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 261.62) (xy 121.92 264.16)
+			(xy 172.72 71.12) (xy 172.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 261.62) (xy 109.22 264.16)
+			(xy 160.02 71.12) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3079,17 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 109.22) (xy 299.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f7ba1b5-39ca-42cb-9706-0119352f967f")
-	)
-	(wire
-		(pts
-			(xy 213.36 121.92) (xy 213.36 124.46)
+			(xy 160.02 127) (xy 160.02 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3099,17 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 261.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ba59ba-f193-4398-913f-4cae3851f14d")
-	)
-	(wire
-		(pts
-			(xy 261.62 121.92) (xy 261.62 124.46)
+			(xy 172.72 127) (xy 172.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3600,37 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 251.46) (xy 121.92 248.92)
+			(xy 114.3 182.88) (xy 114.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bcfe27-216b-48a0-904a-33e6b09a8d7a")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 104.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368d787e-985d-41a2-b6af-4d32fa0c12cc")
+	)
+	(wire
+		(pts
+			(xy 99.06 175.26) (xy 99.06 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384e2ae2-8336-42e8-8a8c-c313c8d492e0")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 132.08) (xy 271.78 132.08)
+			(xy 139.7 137.16) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3139,17 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 63.5) (xy 256.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f62d1db-9c8c-47bb-b389-1c3e4127694b")
-	)
-	(wire
-		(pts
-			(xy 180.34 248.92) (xy 182.88 248.92)
+			(xy 198.12 58.42) (xy 200.66 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 109.22) (xy 157.48 109.22)
+			(xy 101.6 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3169,27 +3670,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 43.18 88.9)
+			(xy 154.94 165.1) (xy 154.94 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45ffab69-4c15-4710-8ba2-81be618a17e3")
+		(uuid "47efbaf2-66f7-43f1-8ba0-0b9e77ee475e")
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 226.06 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b80dfe2-311f-4c91-88f7-73dd628568c4")
-	)
-	(wire
-		(pts
-			(xy 144.78 116.84) (xy 144.78 119.38)
+			(xy 91.44 121.92) (xy 91.44 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3690,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 264.16) (xy 167.64 261.62)
+			(xy 55.88 53.34) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52773264-eafc-4fe0-8730-1d18614569d2")
+	)
+	(wire
+		(pts
+			(xy 185.42 73.66) (xy 185.42 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 243.84) (xy 50.8 248.92)
+			(xy 101.6 53.34) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 111.76) (xy 284.48 109.22)
+			(xy 198.12 116.84) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 193.04 132.08)
+			(xy 139.7 119.38) (xy 139.7 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3239,47 +3740,47 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 106.68) (xy 312.42 109.22)
+			(xy 132.08 175.26) (xy 132.08 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b40c3f2-fee1-4dbf-baf1-8177db87e8bf")
+		(uuid "5d4e96ea-a05f-45de-92c6-c3659f19bd84")
 	)
 	(wire
 		(pts
-			(xy 157.48 261.62) (xy 157.48 264.16)
+			(xy 124.46 165.1) (xy 142.24 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e916f6c-48d6-4fc8-9590-4e45d028939c")
+		(uuid "672fa5f9-5232-4f1b-a6f9-058ae9539dcc")
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 104.14)
+			(xy 55.88 66.04) (xy 55.88 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6694fd64-9ea5-44c9-b68f-8049af2697a7")
+		(uuid "67e2e1a9-c373-4b5f-8d96-18dd20a1e45a")
 	)
 	(wire
 		(pts
-			(xy 312.42 109.22) (xy 309.88 109.22)
+			(xy 142.24 190.5) (xy 142.24 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "683b8ceb-d3e2-4008-bb1e-319efcc30fed")
+		(uuid "6a0e8ac2-2869-4395-8cdb-6793adbde464")
 	)
 	(wire
 		(pts
-			(xy 271.78 132.08) (xy 271.78 124.46)
+			(xy 185.42 137.16) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3289,17 +3790,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 121.92) (xy 299.72 124.46)
+			(xy 170.18 165.1) (xy 167.64 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eff8252-12c7-40d2-84b6-d45a0aa74ba8")
+		(uuid "6e41a971-605e-43f0-9aa2-b207f9e22193")
 	)
 	(wire
 		(pts
-			(xy 195.58 261.62) (xy 195.58 264.16)
+			(xy 213.36 71.12) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 261.62) (xy 180.34 264.16)
+			(xy 198.12 71.12) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 271.78) (xy 167.64 264.16)
+			(xy 185.42 81.28) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3830,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 248.92) (xy 91.44 248.92)
+			(xy 99.06 187.96) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cb528f-55cb-43fe-a173-ad37d7ba1764")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 142.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3339,17 +3850,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 144.78 91.44)
+			(xy 132.08 205.74) (xy 142.24 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ac0507e-f763-4fb8-a1b1-120c2dd5dd97")
+		(uuid "7c1955d8-28f2-4887-bfb6-bb1f1368b7ad")
 	)
 	(wire
 		(pts
-			(xy 88.9 271.78) (xy 167.64 271.78)
+			(xy 139.7 81.28) (xy 185.42 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3870,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 254) (xy 88.9 271.78)
+			(xy 86.36 170.18) (xy 86.36 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca9c066-e544-4069-81d9-59bbdfa9bb3e")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 132.08 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d673793-349d-416f-84b5-dbd731e9149c")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3900,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 193.04 114.3)
+			(xy 154.94 165.1) (xy 167.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5b835e-0b7c-4fe1-9cf3-526baec7a02b")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 139.7 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3379,17 +3920,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 144.78 104.14)
+			(xy 218.44 111.76) (xy 218.44 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "823196e0-f8ba-453c-9b68-4574b1c6c461")
+		(uuid "8633678a-4c28-4d09-8f32-7c80c4f5c3a6")
 	)
 	(wire
 		(pts
-			(xy 167.64 264.16) (xy 180.34 264.16)
+			(xy 185.42 73.66) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3399,17 +3940,37 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 76.2) (xy 243.84 78.74)
+			(xy 86.36 170.18) (xy 104.14 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8826deae-5e63-4067-91c5-588db9c263dd")
+		(uuid "8b14c61a-53f2-4c66-8972-15813adc2a09")
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 121.92 104.14)
+			(xy 142.24 203.2) (xy 142.24 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5881e2-373a-405e-8a5b-47a3e17be6cd")
+	)
+	(wire
+		(pts
+			(xy 86.36 187.96) (xy 86.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcf6fb2-ea22-48a6-9fc9-2ef665600051")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 33.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3419,17 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 63.5) (xy 266.7 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911b43c6-8ae1-47a2-a4d2-e83b0d55660b")
-	)
-	(wire
-		(pts
-			(xy 154.94 104.14) (xy 157.48 104.14)
+			(xy 101.6 109.22) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3439,17 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 63.5) (xy 256.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c47116-6dfc-4036-8721-88d536462a8d")
-	)
-	(wire
-		(pts
-			(xy 180.34 276.86) (xy 180.34 279.4)
+			(xy 198.12 86.36) (xy 198.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3459,17 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 109.22) (xy 226.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e15f913-1a23-439a-9e35-905dae74c407")
-	)
-	(wire
-		(pts
-			(xy 261.62 109.22) (xy 261.62 111.76)
+			(xy 172.72 114.3) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3479,27 +4010,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 43.18 243.84)
+			(xy 81.28 109.22) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a075a6c2-6682-43cd-b710-8ee7936d4678")
+		(uuid "a069ac0c-3d53-47b7-a403-d6f1c14e8e52")
 	)
 	(wire
 		(pts
-			(xy 236.22 63.5) (xy 243.84 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22df56d-bb2d-4ecb-ba2c-967acabc6941")
-	)
-	(wire
-		(pts
-			(xy 167.64 119.38) (xy 167.64 123.19)
+			(xy 114.3 124.46) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 109.22) (xy 287.02 109.22)
+			(xy 198.12 114.3) (xy 203.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +4040,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 248.92) (xy 195.58 251.46)
+			(xy 55.88 53.34) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a322f458-d685-4010-b5ca-35fc237e778d")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.42) (xy 213.36 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 193.04 109.22)
+			(xy 124.46 114.3) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 104.14) (xy 193.04 109.22)
+			(xy 139.7 109.22) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3549,7 +4080,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 121.92) (xy 284.48 124.46)
+			(xy 104.14 175.26) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbda834-ee63-4e4f-9af7-177ec9103fa9")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3559,17 +4100,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 246.38) (xy 134.62 248.92)
+			(xy 170.18 162.56) (xy 170.18 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3a84042-3a38-4f5b-9f8a-387c5c95fd7e")
+		(uuid "b5158fd1-1f28-4179-9470-75fca1f6602d")
 	)
 	(wire
 		(pts
-			(xy 50.8 243.84) (xy 53.34 243.84)
+			(xy 101.6 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 248.92) (xy 134.62 248.92)
+			(xy 172.72 58.42) (xy 185.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3589,27 +4130,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 109.22) (xy 299.72 111.76)
+			(xy 60.96 165.1) (xy 63.5 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b924108b-dc28-4472-97a2-d8dcee795cee")
+		(uuid "b6f29fd5-cef2-4fdc-92b4-c622a3c2eec1")
 	)
 	(wire
 		(pts
-			(xy 157.48 248.92) (xy 157.48 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9bbdc6-d316-47db-b1dc-82243eeec64d")
-	)
-	(wire
-		(pts
-			(xy 134.62 104.14) (xy 137.16 104.14)
+			(xy 45.72 53.34) (xy 55.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3619,17 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 76.2) (xy 256.54 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5f492c-27c3-45c0-8bf7-39c55ced1203")
-	)
-	(wire
-		(pts
-			(xy 101.6 248.92) (xy 109.22 248.92)
+			(xy 152.4 58.42) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +4160,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 116.84) (xy 134.62 119.38)
+			(xy 167.64 177.8) (xy 167.64 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03703ec-9459-4ab3-9ff1-8d8f3dffe604")
+	)
+	(wire
+		(pts
+			(xy 45.72 66.04) (xy 45.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 251.46) (xy 180.34 248.92)
+			(xy 198.12 60.96) (xy 198.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 124.46) (xy 284.48 127)
+			(xy 198.12 129.54) (xy 198.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3669,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 134.62 104.14)
+			(xy 43.18 53.34) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3679,27 +4210,17 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 109.22) (xy 299.72 109.22)
+			(xy 91.44 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c99070d1-cf24-4fd8-b083-679dcce60e78")
+		(uuid "c906ba5c-fad4-45f4-8e9e-cceeb4a29fa8")
 	)
 	(wire
 		(pts
-			(xy 243.84 63.5) (xy 243.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba3700e-52e3-4bab-86e4-672046f7dfbc")
-	)
-	(wire
-		(pts
-			(xy 63.5 259.08) (xy 63.5 262.89)
+			(xy 114.3 68.58) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +4230,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 243.84) (xy 40.64 246.38)
+			(xy 63.5 177.8) (xy 63.5 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7b4eb5-d05e-4136-b17c-758ccf3791d4")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 91.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +4250,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 246.38) (xy 208.28 248.92)
+			(xy 63.5 165.1) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecbbc1e-66c5-4ff2-89aa-f28079bfc0e0")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 215.9 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +4270,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 154.94 104.14)
+			(xy 213.36 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a33043-7fd6-4405-be15-037c27844d93")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 101.6 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3739,17 +4290,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 248.92) (xy 149.86 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e71f9e-6f10-4d3f-a119-ce735e31ccc0")
-	)
-	(wire
-		(pts
-			(xy 134.62 104.14) (xy 134.62 106.68)
+			(xy 45.72 53.34) (xy 45.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3759,37 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 248.92) (xy 149.86 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fc44bf-751c-47bf-9937-2e934156e21b")
-	)
-	(wire
-		(pts
-			(xy 226.06 63.5) (xy 223.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8bcd0e-21b0-4c0a-b08d-9ee52a6ac206")
-	)
-	(wire
-		(pts
-			(xy 226.06 111.76) (xy 226.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbd0530-4d98-457a-b0a2-ef206af4ee7b")
-	)
-	(wire
-		(pts
-			(xy 177.8 104.14) (xy 180.34 104.14)
+			(xy 124.46 109.22) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +4310,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 109.22) (xy 213.36 109.22)
+			(xy 142.24 165.1) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6179d48-29ba-4675-bd5d-81bf249511cf")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95b5426-8fc1-4dac-81ce-2372bbc37cd7")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 160.02 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 248.92) (xy 195.58 248.92)
+			(xy 210.82 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3819,17 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 248.92) (xy 167.64 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4566e4-77c3-4023-a079-cfc24060ae3e")
-	)
-	(wire
-		(pts
-			(xy 40.64 256.54) (xy 40.64 259.08)
+			(xy 91.44 66.04) (xy 91.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +4360,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 109.22) (xy 213.36 111.76)
+			(xy 160.02 114.3) (xy 160.02 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3849,17 +4370,37 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 144.78 78.74)
+			(xy 142.24 165.1) (xy 154.94 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3343bc0-4b24-4a1d-8eba-7dea7a124faa")
+		(uuid "f1cf40a7-f3df-4a0b-a066-cc62d5219cf3")
 	)
 	(wire
 		(pts
-			(xy 86.36 243.84) (xy 88.9 243.84)
+			(xy 60.96 162.56) (xy 60.96 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24b7597-8cd4-4a7b-a1fe-a0f110e131c7")
+	)
+	(wire
+		(pts
+			(xy 142.24 177.8) (xy 142.24 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3caa43a-999b-433f-98e6-7e7deb990203")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +4410,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 124.46) (xy 284.48 124.46)
+			(xy 185.42 129.54) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3879,17 +4420,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 243.84) (xy 50.8 243.84)
+			(xy 167.64 165.1) (xy 167.64 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8584014-9b6b-4373-a879-a3026048394e")
+		(uuid "f835d1ef-0380-43a3-9f91-b0cc7df20142")
 	)
 	(wire
 		(pts
-			(xy 40.64 243.84) (xy 43.18 243.84)
+			(xy 215.9 114.3) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9327c80-5bcb-4571-9653-6d6b2c83aba8")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 101.6 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 243.84) (xy 76.2 243.84)
+			(xy 124.46 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +4460,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 264.16) (xy 180.34 266.7)
+			(xy 198.12 73.66) (xy 198.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3917,8 +4468,8 @@
 		)
 		(uuid "fde3d711-a1ef-4a71-93df-752a1746de8b")
 	)
-	(label "SW"
-		(at 180.34 109.22 0)
+	(label "SW_5V"
+		(at 127 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3927,8 +4478,8 @@
 		)
 		(uuid "258728fc-2038-44a8-bcb7-4b7810b218c5")
 	)
-	(label "SW_5V"
-		(at 76.2 248.92 0)
+	(label "SW_3V3"
+		(at 127 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3937,8 +4488,8 @@
 		)
 		(uuid "4f24937a-1040-4aa4-8fbd-2dfa742fbc3f")
 	)
-	(label "VOUT"
-		(at 208.28 109.22 0)
+	(label "VOUT_5V"
+		(at 154.94 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3948,7 +4499,7 @@
 		(uuid "8d144d14-772f-48dc-83d5-17ca36c2b77d")
 	)
 	(label "VIN_SAFE"
-		(at 109.22 88.9 0)
+		(at 58.42 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3957,8 +4508,8 @@
 		)
 		(uuid "bae9a42a-2f7c-4990-9d9c-872545a2fdd8")
 	)
-	(label "VOUT_5V"
-		(at 104.14 248.92 0)
+	(label "VOUT_3V3"
+		(at 154.94 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3969,7 +4520,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 116.84 104.14 180)
+		(at 27.94 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3978,20 +4529,32 @@
 		)
 		(uuid "8870a417-318e-407b-897d-e0393bf6cf56")
 	)
-	(hierarchical_label "3V3_EXPANSION"
+	(hierarchical_label "VBUS_EN"
+		(shape input)
+		(at 83.82 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "941b18b7-233b-4f9e-b1d4-ec0d13981cf8")
+	)
+	(hierarchical_label "~{VBUS_FAULT}"
 		(shape output)
-		(at 266.7 63.5 0)
+		(at 167.64 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a7b05160-95ad-481b-ba47-7f9cd09fe8ad")
+		(uuid "c86fa243-f273-4712-8f98-e321ea877b6b")
 	)
 	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP1502F")
-		(at 180.34 271.78 0)
+		(at 198.12 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4002,7 +4565,7 @@
 		(fields_autoplaced yes)
 		(uuid "032bfebd-4165-40f4-93d7-e6354c653766")
 		(property "Reference" "R30"
-			(at 182.88 270.5099 0)
+			(at 200.66 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +4576,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 182.88 273.0499 0)
+			(at 200.66 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4587,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 178.562 271.78 90)
+			(at 196.342 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4598,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4609,7 @@
 			)
 		)
 		(property "Description" "15k 1% 0402 0.1W Resistor"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4057,7 +4620,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP1502F"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4631,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +4642,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4653,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4101,7 +4664,7 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 180.34 271.78 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,8 +4690,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 60.96 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f666dc-5d3d-4177-ae93-945821b661ed")
+		(property "Reference" "#PWR072"
+			(at 60.325 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 60.96 158.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ea87e84-2230-454f-9031-82d3c4e6d4ef")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 63.5 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10099a79-932e-4dc9-a502-d3a83b343cc9")
+		(property "Reference" "#PWR042"
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 63.5 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe580830-3821-4c32-8a04-c670497f079d")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IC_WUT:TI_LMR54410DBV")
-		(at 63.5 243.84 0)
+		(at 114.3 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4138,7 +4857,7 @@
 		(dnp no)
 		(uuid "16d2ea0b-dca9-4991-83de-47f0cd59b351")
 		(property "Reference" "U7"
-			(at 63.5 240.03 0)
+			(at 114.3 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4148,7 +4867,7 @@
 			)
 		)
 		(property "Value" "TI LMR54410DBV"
-			(at 66.04 257.81 0)
+			(at 116.84 67.31 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4159,7 +4878,7 @@
 			)
 		)
 		(property "Footprint" "IC_WUT:SOT-23-6"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4170,7 +4889,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr54410.pdf?ts=1780861837590&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR54410%253FkeyMatch%253DLMR54410%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4900,7 @@
 			)
 		)
 		(property "Description" "1.1MHz DCDC buck converter 1A"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +4911,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instrumentss"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4203,7 +4922,7 @@
 			)
 		)
 		(property "MPN" "LMR54410DBV"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4933,7 @@
 			)
 		)
 		(property "JLCPCB Order #" "C3200265"
-			(at 63.5 243.84 0)
+			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4253,7 +4972,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 180.34 279.4 0)
+		(at 198.12 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4264,7 +4983,7 @@
 		(fields_autoplaced yes)
 		(uuid "1899be77-6daf-44b1-9f10-0b74673fbc8b")
 		(property "Reference" "#PWR064"
-			(at 180.34 279.4 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4994,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 180.34 283.21 0)
+			(at 198.12 92.71 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4285,7 +5004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 279.4 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +5015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 279.4 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +5026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 279.4 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 121.92 264.16 0)
+		(at 172.72 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4342,7 +5061,7 @@
 		(fields_autoplaced yes)
 		(uuid "22015f4a-2fe3-45c8-a2f7-9f9f83ad0f3d")
 		(property "Reference" "#PWR062"
-			(at 121.92 264.16 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +5072,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 121.92 267.97 0)
+			(at 172.72 77.47 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4363,7 +5082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 264.16 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +5093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 264.16 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +5104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 264.16 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "inductor_auto_wut:APV ANR4030T100M")
-		(at 96.52 248.92 90)
+		(at 147.32 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4420,7 +5139,7 @@
 		(fields_autoplaced yes)
 		(uuid "2404761a-f13b-40dc-b87e-e59023649285")
 		(property "Reference" "L2"
-			(at 96.52 243.84 90)
+			(at 147.32 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4430,7 +5149,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 96.52 246.38 90)
+			(at 147.32 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4440,7 +5159,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_WUT:APV_ANR4030"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4451,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603011864557338624-C6808095.pdf?response-content-disposition=attachment%3B%20filename%3DC6808095.pdf%3B%20filename%2A%3DUTF-8%27%27C6808095.pdf&x-oss-date=20260607T200934Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rdKOz5paxSx4GjRxLFlGEbXftf2bbSgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZwXxUJD4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgqjw8dcwnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkII5p9SKKWD5sagAEYi6F5uKXQwFNKDm0NdA5P%2BgLP5MxAifiq4Fecs2o5SuU7ynGgZYb7khGeoewOq3IHauBSAv99HVqIaqtIo6b0QF6RXPJjFihIWN0ENRkimO6Pg24PlCDnYKYJFmzq0CL26yCak6CtOy7IMXazQHlHZ5R8CDxTTTTYkjT5LHj%2FkiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYhcVMHsspCHE4tpaNQts6sya%2F20260607%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=631404a0b63890ba8cb8efeaf4abd8c2ff5bd5cc0dff4ec7244ae2c6360262a3"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4462,7 +5181,7 @@
 			)
 		)
 		(property "Description" "10u 20% 4x4x3mm 2.4A Inductor"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +5192,7 @@
 			)
 		)
 		(property "Manufacturer" "APV"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4484,7 +5203,7 @@
 			)
 		)
 		(property "MPN" "ANR4030T100M"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +5214,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +5225,7 @@
 			)
 		)
 		(property "Height" "3mm"
-			(at 96.52 248.92 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,7 +5252,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 109.22 264.16 0)
+		(at 160.02 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4544,7 +5263,7 @@
 		(fields_autoplaced yes)
 		(uuid "24273e71-7cfa-4d7b-bdea-1507051d73f8")
 		(property "Reference" "#PWR040"
-			(at 109.22 264.16 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,7 +5274,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 109.22 267.97 0)
+			(at 160.02 77.47 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4565,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 264.16 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,7 +5295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 264.16 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +5306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 264.16 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,121 +5329,8 @@
 		)
 	)
 	(symbol
-		(lib_id "fuse_auto_wut:Littelfuse 0467001.NR")
-		(at 187.96 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e3edd1-1c2b-4c60-8aa3-153a1d91ae0f")
-		(property "Reference" "F4"
-			(at 187.96 246.38 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1A"
-			(at 187.96 251.46 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSIS12463/LFSIS12463-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Very Fast Blow 0603 Fuse"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0467001.NR"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.305mm"
-			(at 187.96 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b6576d7-16e5-4612-8002-5baf0a12f656")
-		)
-		(pin "1"
-			(uuid "78fdc388-af4c-4a7a-8c83-4d12b64a363b")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Yageo CC0402KRX7R8BB104")
-		(at 109.22 256.54 0)
+		(at 160.02 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4735,7 +5341,7 @@
 		(fields_autoplaced yes)
 		(uuid "285dfe2d-7895-4b86-8c2e-23e601993ac5")
 		(property "Reference" "C30"
-			(at 113.03 253.9999 0)
+			(at 163.83 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4746,7 +5352,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 113.03 256.5399 0)
+			(at 163.83 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4757,7 +5363,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,7 +5374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,7 +5385,7 @@
 			)
 		)
 		(property "Description" "100n 10% 25V 0402 X7R Capacitor"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +5396,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 113.03 259.0799 0)
+			(at 163.83 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4802,7 +5408,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,7 +5419,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R8BB104"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +5430,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,7 +5441,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,7 +5452,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 109.22 256.54 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,41 +5478,19 @@
 		)
 	)
 	(symbol
-		(lib_id "tvs_zener_auto_wut:onsemi MM3Z3V3ST1G")
-		(at 299.72 116.84 270)
+		(lib_id "Power_WUT:3V3")
+		(at 218.44 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34675910-1ded-4cac-baf8-d1cbb020a78d")
-		(property "Reference" "ZD1"
-			(at 302.26 115.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 302.26 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 299.72 116.84 0)
+		(uuid "2c6cad98-56b2-47cf-b384-85419b78ce33")
+		(property "Reference" "#PWR059"
+			(at 217.805 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,8 +5500,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2028649.pdf"
-			(at 299.72 116.84 0)
+		(property "Value" "5V"
+			(at 218.44 107.95 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,8 +5521,8 @@
 				)
 			)
 		)
-		(property "Description" "3V3 SOD-323 Zener Diode"
-			(at 299.72 116.84 0)
+		(property "Datasheet" ""
+			(at 218.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,30 +5532,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "onsemi"
-			(at 299.72 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MM3Z3V3ST1G"
-			(at 299.72 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1mm"
-			(at 299.72 116.84 0)
+		(property "Description" ""
+			(at 218.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,15 +5544,317 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe7ff914-2809-4b7a-95ee-f09451f4b57a")
-		)
-		(pin "2"
-			(uuid "2cea18a0-f2fd-46f9-bfc3-58012efe346d")
+			(uuid "b9021294-10ed-458d-8cad-7ef3c4de7ecc")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "ZD1")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
+		(at 167.64 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e701cb3-59cc-4c20-88d6-2c1317d3555e")
+		(property "Reference" "C23"
+			(at 171.45 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 171.45 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 171.45 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.6mm"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1d4ee67-8e9a-4d90-88fb-03559e1a597e")
+		)
+		(pin "2"
+			(uuid "4e6808aa-94bf-46b3-a41a-8a0c3ad8563f")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 167.64 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eae4db9-b75d-4441-8209-c22ea87e846d")
+		(property "Reference" "#PWR071"
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 167.64 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1be56e2b-5793-4390-a5dc-abe2e93f5072")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 55.88 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3055d226-0283-43b9-8b51-872205ae7774")
+		(property "Reference" "#PWR032"
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 55.88 72.39 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "743d1021-8b95-49dc-92b5-adab386fc577")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4988,7 +5862,7 @@
 	)
 	(symbol
 		(lib_id "capacitor_auto_wut:Murata GRM155R6YA225KE11")
-		(at 144.78 111.76 0)
+		(at 91.44 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4999,7 +5873,7 @@
 		(fields_autoplaced yes)
 		(uuid "38be9ad7-368b-4e3a-b8a6-90e59ac13490")
 		(property "Reference" "C15"
-			(at 148.59 109.2199 0)
+			(at 95.25 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5010,7 +5884,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 148.59 111.7599 0)
+			(at 95.25 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5021,7 +5895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5906,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +5917,7 @@
 			)
 		)
 		(property "Description" "2u2 10% 35V 0402 X5R Capacitor"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +5928,7 @@
 			)
 		)
 		(property "Voltage" "35V"
-			(at 148.59 114.2999 0)
+			(at 95.25 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5066,7 +5940,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5077,7 +5951,7 @@
 			)
 		)
 		(property "MPN" "GRM155R6YA225KE11"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,7 +5962,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5973,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5110,7 +5984,7 @@
 			)
 		)
 		(property "Height" "0.7mm"
-			(at 144.78 111.76 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +6011,7 @@
 	)
 	(symbol
 		(lib_id "IC_WUT:TI_LMR54410DBV")
-		(at 167.64 104.14 0)
+		(at 114.3 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5147,7 +6021,7 @@
 		(dnp no)
 		(uuid "3b6a2a6d-3dd1-4a56-b2f4-54e055858084")
 		(property "Reference" "U5"
-			(at 167.64 100.33 0)
+			(at 114.3 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5157,7 +6031,7 @@
 			)
 		)
 		(property "Value" "TI LMR54410DBV"
-			(at 170.18 118.11 0)
+			(at 116.84 123.19 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5168,7 +6042,7 @@
 			)
 		)
 		(property "Footprint" "IC_WUT:SOT-23-6"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,7 +6053,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr54410.pdf?ts=1780861837590&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR54410%253FkeyMatch%253DLMR54410%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +6064,7 @@
 			)
 		)
 		(property "Description" "1.1MHz DCDC buck converter 1A"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +6075,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instrumentss"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5212,7 +6086,7 @@
 			)
 		)
 		(property "MPN" "LMR54410DBV"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5223,7 +6097,7 @@
 			)
 		)
 		(property "JLCPCB Order #" "C3200265"
-			(at 167.64 104.14 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 256.54 78.74 0)
+		(at 154.94 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5271,9 +6145,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4094f1a0-3021-45da-aede-60b870bd083e")
-		(property "Reference" "#PWR059"
-			(at 256.54 78.74 0)
+		(uuid "44aae372-8190-43eb-910b-263d32f8c965")
+		(property "Reference" "#PWR070"
+			(at 154.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5284,7 +6158,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 256.54 82.55 0)
+			(at 154.94 184.15 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5294,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 78.74 0)
+			(at 154.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +6179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 78.74 0)
+			(at 154.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5316,7 +6190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 78.74 0)
+			(at 154.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,176 +6201,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b29b5f41-8d5e-4081-8379-e5b047652e54")
+			(uuid "9c90d34d-1bb2-4e8b-bf04-474f400a4460")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR059")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 226.06 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46fcf31f-5e0e-4d0c-85a7-fa09d7475ec0")
-		(property "Reference" "#PWR35"
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 226.06 128.27 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0fa11dd-7947-4135-90de-d1aaa3af7c73")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 157.48 264.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b9f4f22-acdd-43b8-b660-85a29071cf46")
-		(property "Reference" "#PWR063"
-			(at 157.48 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 157.48 267.97 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "803987ad-6fc9-44ee-8909-a42dfb884fe3")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fuse_auto_wut:Littelfuse 0603L025")
-		(at 231.14 63.5 0)
+		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1002F")
+		(at 86.36 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5505,200 +6223,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cdb7534-5b8d-4ee6-83ae-e471a7a1bc19")
-		(property "Reference" "F2"
-			(at 231.14 60.96 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "250mA"
-			(at 231.14 66.04 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-0603l-datasheet?assetguid=879563f9-97a7-4e71-adba-37de085b333f"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "250mA PPTC 0603 Fuse"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603L025"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.75mm"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b37d0a38-6f13-40df-9253-6f0481f655af")
-		)
-		(pin "1"
-			(uuid "9d20d14f-e034-4bd1-907e-02dbea2326e4")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_WUT:3V3")
-		(at 208.28 246.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e392ec-0848-422d-ac64-5c3791d93190")
-		(property "Reference" "#PWR067"
-			(at 207.645 249.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 208.28 242.57 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0560c91-3add-4387-81b4-6b61f5b0d8c8")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tvs_zener_auto_wut:onsemi MM3Z3V3ST1G")
-		(at 195.58 256.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53152f35-c717-4e9e-99f3-e7fe216015da")
-		(property "Reference" "ZD2"
-			(at 198.12 255.2699 90)
+		(uuid "4a0d818e-1348-4c91-a362-f60a7b35d65b")
+		(property "Reference" "R10"
+			(at 88.9 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5708,123 +6235,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3"
-			(at 198.12 257.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2028649.pdf"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3V3 SOD-323 Zener Diode"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MM3Z3V3ST1G"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1mm"
-			(at 195.58 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6a3b2ba-084f-4424-9f67-91474216456a")
-		)
-		(pin "2"
-			(uuid "58fd7f97-cbb3-491a-a000-c262d6e95d0b")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "ZD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP4702F")
-		(at 284.48 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "573c568e-c738-455f-932e-4704b0971492")
-		(property "Reference" "R15"
-			(at 287.02 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 287.02 118.1099 0)
+		(property "Value" "10k"
+			(at 88.9 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5835,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 282.702 116.84 90)
+			(at 84.582 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 284.48 116.84 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,8 +6268,8 @@
 				)
 			)
 		)
-		(property "Description" "47k 1% 0402 0.1W Resistor"
-			(at 284.48 116.84 0)
+		(property "Description" "10k 1% 0402 0.1W Resistor"
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5867,8 +6279,8 @@
 				)
 			)
 		)
-		(property "MPN" "RK73H1ETTP4702F"
-			(at 284.48 116.84 0)
+		(property "MPN" "RK73H1ETTP1002F"
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5879,7 +6291,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 284.48 116.84 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,7 +6302,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 284.48 116.84 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,7 +6313,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 284.48 116.84 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +6324,430 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 284.48 116.84 0)
+			(at 86.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3c1363b-e7aa-4964-9c43-b3b875fb24bd")
+		)
+		(pin "1"
+			(uuid "b2ba60a5-ebe5-45ef-9fb6-cfb5a7c6435c")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1002F")
+		(at 142.24 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cd9df67-355d-4789-8d56-55baf77249a5")
+		(property "Reference" "R11"
+			(at 144.78 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+			(at 140.462 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10k 1% 0402 0.1W Resistor"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RK73H1ETTP1002F"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4mm"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Power" "0.1W"
+			(at 142.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3baa651-0f6c-458f-8cd0-a45b9df2dbbd")
+		)
+		(pin "1"
+			(uuid "dfa0a88e-fecf-45ea-b492-481415d7ac02")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 55.88 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e0192d4-ba19-40b4-9e64-dc72922c6ce4")
+		(property "Reference" "C32"
+			(at 59.69 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 59.69 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 59.69 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d5cd49d-4ec4-4f36-97c6-5f545a37770e")
+		)
+		(pin "2"
+			(uuid "cd621ab4-7a01-4b3e-a3b0-d2025512da82")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP4702F")
+		(at 198.12 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "573c568e-c738-455f-932e-4704b0971492")
+		(property "Reference" "R15"
+			(at 200.66 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 200.66 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+			(at 196.342 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47k 1% 0402 0.1W Resistor"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RK73H1ETTP4702F"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4mm"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Power" "0.1W"
+			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,8 +6773,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tvs_zener_auto_wut:onsemi MM3Z3V3ST1G")
-		(at 243.84 71.12 270)
+		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP4702F")
+		(at 99.06 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5948,9 +6783,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65e5e781-24c8-432c-9dad-84a3f38fbdcc")
-		(property "Reference" "ZD3"
-			(at 246.38 69.8499 90)
+		(uuid "5a2200db-3495-4e9f-ad52-049cd64e0c75")
+		(property "Reference" "R9"
+			(at 101.6 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5960,8 +6795,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3"
-			(at 246.38 72.3899 90)
+		(property "Value" "47k"
+			(at 101.6 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,8 +6806,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 243.84 71.12 0)
+		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+			(at 97.282 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,8 +6817,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2028649.pdf"
-			(at 243.84 71.12 0)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 99.06 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,8 +6828,8 @@
 				)
 			)
 		)
-		(property "Description" "3V3 SOD-323 Zener Diode"
-			(at 243.84 71.12 0)
+		(property "Description" "47k 1% 0402 0.1W Resistor"
+			(at 99.06 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,8 +6839,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "onsemi"
-			(at 243.84 71.12 0)
+		(property "MPN" "RK73H1ETTP4702F"
+			(at 99.06 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,8 +6850,8 @@
 				)
 			)
 		)
-		(property "MPN" "MM3Z3V3ST1G"
-			(at 243.84 71.12 0)
+		(property "Manufacturer" "KOA Speer"
+			(at 99.06 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6026,8 +6861,8 @@
 				)
 			)
 		)
-		(property "Height" "1mm"
-			(at 243.84 71.12 0)
+		(property "Tolerance" "1%"
+			(at 99.06 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6037,24 +6872,161 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "3bd53bc3-cc19-459c-a0f0-401d42df4780")
+		(property "Height" "0.4mm"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Power" "0.1W"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "1c13257f-ee05-498e-8f37-5d8fa4ac1448")
+			(uuid "3eb1450d-c80f-4b42-aa0b-834111d8d337")
+		)
+		(pin "1"
+			(uuid "54505106-2828-497e-8eb2-b915202bea6f")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "ZD3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 167.64 123.19 0)
+		(lib_id "aaa_tvs_zener_auto_wut:hongjiacheng  H5VND5U")
+		(at 213.36 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "627ee217-cacd-4ea2-bd72-8972f43b9d73")
+		(property "Reference" "D13"
+			(at 215.9 64.5159 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 215.9 67.0559 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-H5VND5U/C42413865"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5V SOD523 TVS Diode"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng "
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "H5VND5U"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.77mm"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5be1f3e-67ed-4e42-b501-ac792e068b1b")
+		)
+		(pin "1"
+			(uuid "34bccbdc-2915-4083-8e06-51ff8c2dbe55")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 142.24 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6063,9 +7035,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69a80239-09e3-4e6e-9bb3-2ca3ef34bba2")
-		(property "Reference" "#PWR29"
-			(at 167.64 123.19 0)
+		(uuid "64ff542f-3664-44bf-9384-806e54f80ea0")
+		(property "Reference" "#PWR073"
+			(at 141.605 193.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6075,8 +7047,8 @@
 				)
 			)
 		)
-		(property "Value" "0V"
-			(at 167.64 127 0)
+		(property "Value" "3V3"
+			(at 142.24 186.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6086,7 +7058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 123.19 0)
+			(at 142.24 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,7 +7069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 123.19 0)
+			(at 142.24 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +7080,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 123.19 0)
+			(at 142.24 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f5e95c5-95ad-448f-974f-db9296907b9e")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 114.3 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a80239-09e3-4e6e-9bb3-2ca3ef34bba2")
+		(property "Reference" "#PWR29"
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 114.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6132,7 +7182,7 @@
 	)
 	(symbol
 		(lib_id "capacitor_auto_wut:Kemet C0402C150G5GACTU")
-		(at 167.64 256.54 0)
+		(at 185.42 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6143,7 +7193,7 @@
 		(fields_autoplaced yes)
 		(uuid "705a98ef-9cb0-4fae-8a48-7d8261baa543")
 		(property "Reference" "C33"
-			(at 171.45 253.9999 0)
+			(at 189.23 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6154,7 +7204,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 171.45 256.5399 0)
+			(at 189.23 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6165,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,7 +7237,7 @@
 			)
 		)
 		(property "Description" "15p 2% 50V 0402 NP0/C0G Capacitor"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +7248,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 171.45 259.0799 0)
+			(at 189.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6210,7 +7260,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +7271,7 @@
 			)
 		)
 		(property "MPN" "C0402C150G5GACTU"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +7282,7 @@
 			)
 		)
 		(property "Tolerance" "2%"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +7293,7 @@
 			)
 		)
 		(property "Dielectric" "NP0/C0G"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +7304,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 167.64 256.54 0)
+			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +7331,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 243.84 78.74 0)
+		(at 215.9 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6290,9 +7340,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74ef78f8-806d-42f9-bd67-9bd9087205ed")
-		(property "Reference" "#PWR038"
-			(at 243.84 78.74 0)
+		(uuid "7261721d-385b-4e16-aaad-b2cb38491229")
+		(property "Reference" "#PWR063"
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +7353,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 243.84 82.55 0)
+			(at 215.9 133.35 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6313,7 +7363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 78.74 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +7374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 78.74 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +7385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 78.74 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,12 +7396,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c811a28-9329-491e-ae11-3d827162f486")
+			(uuid "ff8c4dde-619a-4ea6-80eb-948c7b06894c")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR038")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6359,7 +7409,7 @@
 	)
 	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Yageo CC0402KRX7R8BB104")
-		(at 185.42 104.14 270)
+		(at 132.08 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6369,7 +7419,7 @@
 		(dnp no)
 		(uuid "7a79f7a0-00a4-4678-a794-ad8be5cfe908")
 		(property "Reference" "C19"
-			(at 185.42 100.33 90)
+			(at 132.08 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6379,7 +7429,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 184.15 105.41 90)
+			(at 130.81 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6390,7 +7440,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6401,7 +7451,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6412,7 +7462,7 @@
 			)
 		)
 		(property "Description" "100n 10% 25V 0402 X7R Capacitor"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6423,7 +7473,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 186.69 105.41 90)
+			(at 133.35 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6435,7 +7485,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +7496,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R8BB104"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +7507,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6468,7 +7518,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +7529,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 185.42 104.14 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +7556,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 144.78 119.38 0)
+		(at 91.44 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6517,7 +7567,7 @@
 		(fields_autoplaced yes)
 		(uuid "80d22c3e-e36d-4b2b-bd8d-612ab48dc10b")
 		(property "Reference" "#PWR030"
-			(at 144.78 119.38 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +7578,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 144.78 123.19 0)
+			(at 91.44 128.27 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6538,7 +7588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 119.38 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +7599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 119.38 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6560,7 +7610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 119.38 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +7634,7 @@
 	)
 	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP1502F")
-		(at 284.48 132.08 0)
+		(at 198.12 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6595,7 +7645,7 @@
 		(fields_autoplaced yes)
 		(uuid "88e941a0-415d-4f74-86bc-ce4e9f613676")
 		(property "Reference" "R16"
-			(at 287.02 130.8099 0)
+			(at 200.66 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6606,7 +7656,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 287.02 133.3499 0)
+			(at 200.66 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6617,7 +7667,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 282.702 132.08 90)
+			(at 196.342 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +7678,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,7 +7689,7 @@
 			)
 		)
 		(property "Description" "15k 1% 0402 0.1W Resistor"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6650,7 +7700,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP1502F"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6661,7 +7711,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +7722,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +7733,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +7744,7 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 284.48 132.08 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +7771,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 134.62 119.38 0)
+		(at 86.36 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6730,9 +7780,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ae14dc9-da93-4c55-befa-239274f24440")
-		(property "Reference" "#PWR27"
-			(at 134.62 119.38 0)
+		(uuid "8966ebbb-ebba-4720-a929-efa2a3218128")
+		(property "Reference" "#PWR068"
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +7793,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 134.62 123.19 0)
+			(at 86.36 194.31 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6753,7 +7803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 119.38 0)
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +7814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 119.38 0)
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +7825,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 119.38 0)
+			(at 86.36 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f908b59-0271-421b-be99-53ccfa87ba2e")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 45.72 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae14dc9-da93-4c55-befa-239274f24440")
+		(property "Reference" "#PWR27"
+			(at 45.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 45.72 72.39 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,8 +7926,157 @@
 		)
 	)
 	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Yageo CC0402KRX7R8BB104")
+		(at 63.5 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c08bf36-cb2b-4f7d-90f2-2d58e81c11ef")
+		(property "Reference" "C34"
+			(at 67.31 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 67.31 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100n 10% 25V 0402 X7R Capacitor"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 67.31 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R8BB104"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.5mm"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71dd4274-6220-464a-8284-b76a22abd030")
+		)
+		(pin "2"
+			(uuid "4505fe92-d75f-4305-b85b-64f2f94c409f")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP4702F")
-		(at 180.34 256.54 0)
+		(at 198.12 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6810,7 +8087,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d7e7350-470e-4317-8573-368fc32f2b7b")
 		(property "Reference" "R29"
-			(at 182.88 255.2699 0)
+			(at 200.66 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6821,7 +8098,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 182.88 257.8099 0)
+			(at 200.66 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,7 +8109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 178.562 256.54 90)
+			(at 196.342 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +8120,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +8131,7 @@
 			)
 		)
 		(property "Description" "47k 1% 0402 0.1W Resistor"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +8142,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP4702F"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +8153,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +8164,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +8175,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +8186,7 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 180.34 256.54 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +8213,7 @@
 	)
 	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Yageo CC0402KRX7R8BB104")
-		(at 213.36 116.84 0)
+		(at 160.02 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6947,7 +8224,7 @@
 		(fields_autoplaced yes)
 		(uuid "944d1397-e2d7-43c9-b7b2-2aa3de3697d9")
 		(property "Reference" "C21"
-			(at 217.17 114.2999 0)
+			(at 163.83 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6958,7 +8235,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 217.17 116.8399 0)
+			(at 163.83 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6969,7 +8246,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +8257,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +8268,7 @@
 			)
 		)
 		(property "Description" "100n 10% 25V 0402 X7R Capacitor"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7002,7 +8279,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 217.17 119.3799 0)
+			(at 163.83 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7014,7 +8291,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +8302,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R8BB104"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +8313,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +8324,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +8335,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 213.36 116.84 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,8 +8361,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:3V3")
-		(at 312.42 106.68 0)
+		(lib_id "Power_WUT:0V")
+		(at 142.24 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7094,9 +8371,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9672cc53-7e24-4d30-a46c-36093e08da7f")
-		(property "Reference" "#PWR44"
-			(at 311.785 109.855 0)
+		(uuid "96624cc1-e68d-46c0-97f9-7b4b55275b47")
+		(property "Reference" "#PWR069"
+			(at 142.24 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,8 +8383,8 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
-			(at 312.42 102.87 0)
+		(property "Value" "0V"
+			(at 142.24 184.15 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7117,7 +8394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 106.68 0)
+			(at 142.24 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +8405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 106.68 0)
+			(at 142.24 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +8416,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 312.42 106.68 0)
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dce350fc-4085-45f6-9388-a5688103ce21")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 215.9 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9672cc53-7e24-4d30-a46c-36093e08da7f")
+		(property "Reference" "#PWR44"
+			(at 215.265 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 215.9 52.07 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,41 +8517,19 @@
 		)
 	)
 	(symbol
-		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
-		(at 256.54 71.12 0)
+		(lib_id "Power_WUT:0V")
+		(at 99.06 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9afc3f2a-3ba2-4e41-a680-9a54e234cc2b")
-		(property "Reference" "C24"
-			(at 260.35 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 260.35 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 256.54 71.12 0)
+		(uuid "9c279511-c667-4120-a099-abb3736d6a42")
+		(property "Reference" "#PWR067"
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,8 +8539,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
-			(at 256.54 71.12 0)
+		(property "Value" "0V"
+			(at 99.06 194.31 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,8 +8560,8 @@
 				)
 			)
 		)
-		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
-			(at 256.54 71.12 0)
+		(property "Datasheet" ""
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7228,64 +8571,8 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 260.35 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 100 100 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 256.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R61C226ME01"
-			(at 256.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 256.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 256.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1mm"
-			(at 256.54 71.12 0)
+		(property "Description" ""
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7296,15 +8583,138 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b345cf0-47ec-4368-91c2-36a08d90facb")
-		)
-		(pin "2"
-			(uuid "f6c2f946-db26-4a7f-8020-3dd8369dfcf3")
+			(uuid "b3ca9fc0-aea9-4ed1-b5cb-06ef6c0cbab6")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "C24")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IC_WUT:TPS2553DBV")
+		(at 114.3 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2508438-8bc2-42bb-829c-71379bebc722")
+		(property "Reference" "U6"
+			(at 114.3 161.29 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TI TPS2553DBV"
+			(at 115.57 181.61 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IC_WUT:SOT-23-6"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tps2553.pdf?ts=1781435090771"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5A High-side Load switch"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBV"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C55266"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73e8528e-290d-4d38-bd98-67169d52f728")
+		)
+		(pin "6"
+			(uuid "a131e173-3a59-48cb-b650-52401427c66a")
+		)
+		(pin "2"
+			(uuid "2edc14b1-6f20-4176-9e66-bfcf188b082b")
+		)
+		(pin "5"
+			(uuid "a07f15d7-d1fd-4080-9f8b-11a4cefa2128")
+		)
+		(pin "3"
+			(uuid "e6812ce0-eae9-4640-b2f7-a2209a4af8c5")
+		)
+		(pin "4"
+			(uuid "4631e2be-b605-4d03-b9e8-4fe426e2a9b7")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7312,7 +8722,7 @@
 	)
 	(symbol
 		(lib_id "fuse_auto_wut:Littelfuse 0467001.NR")
-		(at 127 104.14 0)
+		(at 38.1 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7323,7 +8733,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3d0c203-c302-4190-9311-612ce3faf48d")
 		(property "Reference" "F1"
-			(at 127 101.6 0)
+			(at 38.1 50.8 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7333,7 +8743,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 127 106.68 0)
+			(at 38.1 55.88 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7343,7 +8753,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSIS12463/LFSIS12463-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +8775,7 @@
 			)
 		)
 		(property "Description" "1A Very Fast Blow 0603 Fuse"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7376,7 +8786,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +8797,7 @@
 			)
 		)
 		(property "MPN" "0467001.NR"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +8808,7 @@
 			)
 		)
 		(property "Height" "0.305mm"
-			(at 127 104.14 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +8835,7 @@
 	)
 	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Yageo CC0402KRX7R8BB104")
-		(at 81.28 243.84 270)
+		(at 132.08 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7435,7 +8845,7 @@
 		(dnp no)
 		(uuid "a411db17-bedd-45cf-8545-6f9cf6a766f3")
 		(property "Reference" "C29"
-			(at 81.28 240.03 90)
+			(at 132.08 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7445,7 +8855,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 245.11 90)
+			(at 130.81 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7456,7 +8866,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,7 +8877,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7478,7 +8888,7 @@
 			)
 		)
 		(property "Description" "100n 10% 25V 0402 X7R Capacitor"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +8899,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 82.55 245.11 90)
+			(at 133.35 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7501,7 +8911,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,7 +8922,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R8BB104"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7523,7 +8933,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +8944,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +8955,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 81.28 243.84 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7571,8 +8981,157 @@
 		)
 	)
 	(symbol
+		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
+		(at 142.24 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c21f95-d093-4e8d-89e3-4feed149cd2d")
+		(property "Reference" "C20"
+			(at 146.05 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 146.05 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 146.05 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.6mm"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f82cad4-60e2-463e-aa3c-83a132310e41")
+		)
+		(pin "2"
+			(uuid "d4daa5b6-4ff7-4540-aab1-52ee859320e3")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
-		(at 121.92 256.54 0)
+		(at 172.72 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7583,7 +9142,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae3ab65d-af31-403d-82fb-75f62a3543ed")
 		(property "Reference" "C31"
-			(at 125.73 253.9999 0)
+			(at 176.53 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7594,7 +9153,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 125.73 256.5399 0)
+			(at 176.53 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7605,7 +9164,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +9175,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7627,7 +9186,7 @@
 			)
 		)
 		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +9197,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 125.73 259.0799 0)
+			(at 176.53 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7650,7 +9209,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,7 +9220,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61C226ME01"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +9231,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +9242,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +9253,7 @@
 			)
 		)
 		(property "Height" "1mm"
-			(at 121.92 256.54 0)
+			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +9280,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 284.48 139.7 0)
+		(at 198.12 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7732,7 +9291,7 @@
 		(fields_autoplaced yes)
 		(uuid "aef78ebb-c94f-44a5-9e75-3c6310460b75")
 		(property "Reference" "#PWR41"
-			(at 284.48 139.7 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +9302,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 284.48 143.51 0)
+			(at 198.12 148.59 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7753,7 +9312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 139.7 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7764,7 +9323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 139.7 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +9334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 139.7 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +9358,7 @@
 	)
 	(symbol
 		(lib_id "tvs_zener_auto_wut:Bourns CDSOD323-T15S")
-		(at 134.62 111.76 90)
+		(at 45.72 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7810,7 +9369,7 @@
 		(fields_autoplaced yes)
 		(uuid "b57dfe5f-35ef-4c81-aee7-f21f49555da6")
 		(property "Reference" "D2"
-			(at 137.16 110.2359 90)
+			(at 48.26 59.4359 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7821,7 +9380,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 137.16 112.7759 90)
+			(at 48.26 61.9759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7832,7 +9391,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +9402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/54/cdsod323_txxsc-777083.pdf"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +9413,7 @@
 			)
 		)
 		(property "Description" "15V SOD323 TVS Diode"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +9424,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +9435,7 @@
 			)
 		)
 		(property "MPN" "CDSOD323-T15S"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7887,7 +9446,7 @@
 			)
 		)
 		(property "Height" "1.14mm"
-			(at 134.62 111.76 0)
+			(at 45.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7913,8 +9472,8 @@
 		)
 	)
 	(symbol
-		(lib_id "inductor_auto_wut:APV ANR4030T100M")
-		(at 200.66 109.22 90)
+		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
+		(at 154.94 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7923,29 +9482,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdd7de6c-ffbd-480d-ab0e-90f668942a62")
-		(property "Reference" "L1"
-			(at 200.66 104.14 90)
+		(uuid "bd9a3fff-c67b-46e9-9477-d997fb12d9fc")
+		(property "Reference" "C22"
+			(at 158.75 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 200.66 106.68 90)
+		(property "Value" "47u"
+			(at 158.75 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_WUT:APV_ANR4030"
-			(at 200.66 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,8 +9516,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603011864557338624-C6808095.pdf?response-content-disposition=attachment%3B%20filename%3DC6808095.pdf%3B%20filename%2A%3DUTF-8%27%27C6808095.pdf&x-oss-date=20260607T200934Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rdKOz5paxSx4GjRxLFlGEbXftf2bbSgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZwXxUJD4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgqjw8dcwnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkII5p9SKKWD5sagAEYi6F5uKXQwFNKDm0NdA5P%2BgLP5MxAifiq4Fecs2o5SuU7ynGgZYb7khGeoewOq3IHauBSAv99HVqIaqtIo6b0QF6RXPJjFihIWN0ENRkimO6Pg24PlCDnYKYJFmzq0CL26yCak6CtOy7IMXazQHlHZ5R8CDxTTTTYkjT5LHj%2FkiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYhcVMHsspCHE4tpaNQts6sya%2F20260607%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=631404a0b63890ba8cb8efeaf4abd8c2ff5bd5cc0dff4ec7244ae2c6360262a3"
-			(at 200.66 109.22 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,8 +9527,8 @@
 				)
 			)
 		)
-		(property "Description" "10u 20% 4x4x3mm 2.4A Inductor"
-			(at 200.66 109.22 0)
+		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
+			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,8 +9538,20 @@
 				)
 			)
 		)
-		(property "Manufacturer" "APV"
-			(at 200.66 109.22 0)
+		(property "Voltage" "25V"
+			(at 158.75 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,8 +9561,8 @@
 				)
 			)
 		)
-		(property "MPN" "ANR4030T100M"
-			(at 200.66 109.22 0)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +9573,142 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 200.66 109.22 0)
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.6mm"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "914a9fe5-fd0e-4b0a-97c7-b52833ab7e84")
+		)
+		(pin "2"
+			(uuid "e2826f09-4f02-4380-a2e2-aada62f5a35e")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inductor_auto_wut:APV ANR4030T100M")
+		(at 147.32 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdd7de6c-ffbd-480d-ab0e-90f668942a62")
+		(property "Reference" "L1"
+			(at 147.32 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 147.32 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_WUT:APV_ANR4030"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603011864557338624-C6808095.pdf?response-content-disposition=attachment%3B%20filename%3DC6808095.pdf%3B%20filename%2A%3DUTF-8%27%27C6808095.pdf&x-oss-date=20260607T200934Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rdKOz5paxSx4GjRxLFlGEbXftf2bbSgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZwXxUJD4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgqjw8dcwnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkII5p9SKKWD5sagAEYi6F5uKXQwFNKDm0NdA5P%2BgLP5MxAifiq4Fecs2o5SuU7ynGgZYb7khGeoewOq3IHauBSAv99HVqIaqtIo6b0QF6RXPJjFihIWN0ENRkimO6Pg24PlCDnYKYJFmzq0CL26yCak6CtOy7IMXazQHlHZ5R8CDxTTTTYkjT5LHj%2FkiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYhcVMHsspCHE4tpaNQts6sya%2F20260607%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=631404a0b63890ba8cb8efeaf4abd8c2ff5bd5cc0dff4ec7244ae2c6360262a3"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10u 20% 4x4x3mm 2.4A Inductor"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "APV"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ANR4030T100M"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 147.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +9719,7 @@
 			)
 		)
 		(property "Height" "3mm"
-			(at 200.66 109.22 0)
+			(at 147.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,7 +9746,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 261.62 124.46 0)
+		(at 114.3 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8047,9 +9755,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cefaac27-789b-49b4-a92d-d7049ea7be40")
-		(property "Reference" "#PWR39"
-			(at 261.62 124.46 0)
+		(uuid "c18190d0-0e8c-4874-b4e8-dd5981d26dfb")
+		(property "Reference" "#PWR066"
+			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +9768,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 261.62 128.27 0)
+			(at 114.3 189.23 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8070,7 +9778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 124.46 0)
+			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +9789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 124.46 0)
+			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +9800,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 124.46 0)
+			(at 114.3 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a5da29b-4d14-4644-854f-710bb179f493")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 172.72 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cefaac27-789b-49b4-a92d-d7049ea7be40")
+		(property "Reference" "#PWR39"
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 172.72 133.35 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,157 +9901,8 @@
 		)
 	)
 	(symbol
-		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
-		(at 144.78 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc06e3a1-7e75-414a-927d-7ae082053ad2")
-		(property "Reference" "C32"
-			(at 148.59 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 148.59 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 148.59 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 100 100 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R61C226ME01"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1mm"
-			(at 144.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b7ad006-4ec7-445b-ae13-b3179eda7233")
-		)
-		(pin "2"
-			(uuid "9354fb63-b461-4569-8733-c73c6ac00a3d")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "capacitor_auto_wut:Kemet C0402C150G5GACTU")
-		(at 271.78 116.84 0)
+		(at 185.42 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8276,7 +9913,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0dd3ff1-0e10-4312-a011-932a15c8406e")
 		(property "Reference" "C26"
-			(at 275.59 114.2999 0)
+			(at 189.23 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8287,7 +9924,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 275.59 116.8399 0)
+			(at 189.23 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8298,7 +9935,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +9946,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +9957,7 @@
 			)
 		)
 		(property "Description" "15p 2% 50V 0402 NP0/C0G Capacitor"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8331,7 +9968,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 275.59 119.3799 0)
+			(at 189.23 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8343,7 +9980,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8354,7 +9991,7 @@
 			)
 		)
 		(property "MPN" "C0402C150G5GACTU"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,7 +10002,7 @@
 			)
 		)
 		(property "Tolerance" "2%"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,7 +10013,7 @@
 			)
 		)
 		(property "Dielectric" "NP0/C0G"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +10024,7 @@
 			)
 		)
 		(property "Height" "0.5mm"
-			(at 271.78 116.84 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8413,86 +10050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 299.72 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e435c3a0-e789-4767-8930-c3481b66943f")
-		(property "Reference" "#PWR42"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 299.72 128.27 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2b45550-2002-4b9b-ba6b-c4b7cc2d326e")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
-		(at 261.62 116.84 0)
+		(at 172.72 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8503,7 +10062,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6b6f834-775c-479d-a555-29d4501ee225")
 		(property "Reference" "C25"
-			(at 265.43 114.2999 0)
+			(at 176.53 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8514,7 +10073,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 265.43 116.8399 0)
+			(at 176.53 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8525,7 +10084,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +10095,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8547,7 +10106,7 @@
 			)
 		)
 		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +10117,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 265.43 119.3799 0)
+			(at 176.53 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8570,7 +10129,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +10140,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61C226ME01"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8592,7 +10151,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +10162,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +10173,7 @@
 			)
 		)
 		(property "Height" "1mm"
-			(at 261.62 116.84 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +10200,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 195.58 264.16 0)
+		(at 213.36 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8652,7 +10211,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7ee6314-bdc4-4655-bfe2-bc7d4c86679d")
 		(property "Reference" "#PWR065"
-			(at 195.58 264.16 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +10222,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 195.58 267.97 0)
+			(at 213.36 77.47 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8673,7 +10232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 264.16 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +10243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 264.16 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8695,7 +10254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 264.16 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +10278,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 40.64 259.08 0)
+		(at 91.44 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8730,7 +10289,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8647b75-590d-47a3-9062-5cce1b6f0cad")
 		(property "Reference" "#PWR060"
-			(at 40.64 259.08 0)
+			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +10300,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 40.64 262.89 0)
+			(at 91.44 72.39 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8751,7 +10310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 259.08 0)
+			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +10321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 259.08 0)
+			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +10332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 259.08 0)
+			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,8 +10355,123 @@
 		)
 	)
 	(symbol
+		(lib_id "aaa_tvs_zener_auto_wut:hongjiacheng  H5VND5U")
+		(at 215.9 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef952dd7-77bd-4531-8284-3d96e4014a8a")
+		(property "Reference" "D14"
+			(at 218.44 120.3959 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 218.44 122.9359 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-H5VND5U/C42413865"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5V SOD523 TVS Diode"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng "
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "H5VND5U"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.77mm"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed96c69a-253d-4675-ae8c-095811e7f591")
+		)
+		(pin "1"
+			(uuid "9092b794-0796-4002-b247-975e895eca1c")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 63.5 262.89 0)
+		(at 114.3 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8808,7 +10482,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa1f3d3-4828-4342-8b39-02a9c0f75759")
 		(property "Reference" "#PWR061"
-			(at 63.5 262.89 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +10493,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 63.5 266.7 0)
+			(at 114.3 76.2 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8829,7 +10503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 262.89 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +10514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 262.89 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +10525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 262.89 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8875,7 +10549,7 @@
 	)
 	(symbol
 		(lib_id "fuse_auto_wut:Littelfuse 0467001.NR")
-		(at 292.1 109.22 0)
+		(at 208.28 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8884,9 +10558,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f4acb7a0-c3a0-42b7-b59d-6b2abf06054d")
-		(property "Reference" "F3"
-			(at 292.1 106.68 0)
+		(uuid "f1405e47-51a9-4ceb-92ad-15b148189219")
+		(property "Reference" "F2"
+			(at 208.28 111.76 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8896,7 +10570,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 292.1 111.76 0)
+			(at 208.28 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8906,7 +10580,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8917,7 +10591,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSIS12463/LFSIS12463-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,7 +10602,7 @@
 			)
 		)
 		(property "Description" "1A Very Fast Blow 0603 Fuse"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8939,7 +10613,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,7 +10624,7 @@
 			)
 		)
 		(property "MPN" "0467001.NR"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8961,7 +10635,7 @@
 			)
 		)
 		(property "Height" "0.305mm"
-			(at 292.1 109.22 0)
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,10 +10646,123 @@
 			)
 		)
 		(pin "2"
-			(uuid "698cd9ef-1ac3-4892-9da9-7e01f1e64a38")
+			(uuid "2eba7b01-40b5-4a60-b8dc-7aaf217cf1d3")
 		)
 		(pin "1"
-			(uuid "c988642c-4ac1-4738-bd4a-5fbbc3b2cc0d")
+			(uuid "33455a44-51f1-4664-9e2e-ac1381f7d206")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fuse_auto_wut:Littelfuse 0467001.NR")
+		(at 205.74 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f422a050-c8e1-4b2b-93c2-6b894608205f")
+		(property "Reference" "F3"
+			(at 205.74 55.88 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 205.74 60.96 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSIS12463/LFSIS12463-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Very Fast Blow 0603 Fuse"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0467001.NR"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.305mm"
+			(at 205.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dba11a0e-0d57-4b69-9fc2-dcc1de8ffbe2")
+		)
+		(pin "1"
+			(uuid "ebc67373-ee79-4d51-9af6-59425a463f0b")
 		)
 		(instances
 			(project "P0004-PCB-001"
@@ -8988,85 +10775,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:0V")
-		(at 144.78 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f55c52b0-a501-49ab-a4d7-c39f1d962bb7")
-		(property "Reference" "#PWR031"
-			(at 144.78 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 144.78 95.25 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65ab3247-2ac2-4f8e-a289-38c1ce5ac8df")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 213.36 124.46 0)
+		(at 160.02 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9077,7 +10786,7 @@
 		(fields_autoplaced yes)
 		(uuid "f78206cd-b611-430b-98c9-e45f46b67774")
 		(property "Reference" "#PWR33"
-			(at 213.36 124.46 0)
+			(at 160.02 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,7 +10797,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 213.36 128.27 0)
+			(at 160.02 133.35 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9098,7 +10807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 124.46 0)
+			(at 160.02 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +10818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 124.46 0)
+			(at 160.02 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +10829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 124.46 0)
+			(at 160.02 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9144,7 +10853,7 @@
 	)
 	(symbol
 		(lib_id "capacitor_auto_wut:Murata GRM155R6YA225KE11")
-		(at 40.64 251.46 0)
+		(at 91.44 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9155,7 +10864,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa6e7115-359f-4b91-85ac-6547efea3d67")
 		(property "Reference" "C28"
-			(at 44.45 248.9199 0)
+			(at 95.25 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9166,7 +10875,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 44.45 251.4599 0)
+			(at 95.25 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9177,7 +10886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_WUT:C_0402_1005Metric"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +10897,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9199,7 +10908,7 @@
 			)
 		)
 		(property "Description" "2u2 10% 35V 0402 X5R Capacitor"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +10919,7 @@
 			)
 		)
 		(property "Voltage" "35V"
-			(at 44.45 253.9999 0)
+			(at 95.25 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9222,7 +10931,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +10942,7 @@
 			)
 		)
 		(property "MPN" "GRM155R6YA225KE11"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,7 +10953,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,7 +10964,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +10975,7 @@
 			)
 		)
 		(property "Height" "0.7mm"
-			(at 40.64 251.46 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,6 +10995,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 170.18 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc3bf56-dd3c-4d14-8409-e804dad1f082")
+		(property "Reference" "#PWR074"
+			(at 169.545 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_VBUS"
+			(at 170.18 158.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "964ea309-fafc-4d60-93c3-6bd8bf7e2d2c")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)

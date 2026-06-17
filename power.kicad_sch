@@ -1849,206 +1849,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "capacitor_auto_wut:TDK C3216X5R1E476M160AC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "47u"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "47u 20% 25V 1206 X5R Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 0 100 100 1)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "C3216X5R1E476M160AC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "20%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.6mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TDK C3216X5R1E476M160AC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TDK C3216X5R1E476M160AC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.064)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.064)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fuse_auto_wut:Littelfuse 0467001.NR"
 			(pin_numbers
 				(hide yes)
@@ -2986,7 +2786,7 @@
 	)
 	(text "3V3 1A"
 		(exclude_from_sim no)
-		(at 115.57 40.64 0)
+		(at 115.57 38.1 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3040,23 +2840,22 @@
 		)
 		(uuid "2f178b4e-cff2-46d2-9eba-ad27a049c6e1")
 	)
-	(text "GRM21BR61E226ME44L\n"
+	(text "TODO Feedback resistors"
 		(exclude_from_sim no)
-		(at 152.4 187.96 0)
+		(at 208.28 101.6 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
-				(color 255 0 15 1)
+				(color 255 18 25 1)
 			)
-			(justify left)
 		)
-		(uuid "45fdf2c4-c0ae-4b6d-8f7f-a7f3df344f41")
+		(uuid "3bb96e3e-86f1-4202-b54a-eb9d456e8cda")
 	)
 	(text "Table 8-1: 10uH recommended for 3V3 out.\nIout = 1A, Target 40% ripple -> Imax = 1.2A.\nAdd 50% margin -> Isat(min) = 1.8A."
 		(exclude_from_sim no)
-		(at 95.25 99.06 0)
+		(at 92.71 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3134,7 +2933,7 @@
 	)
 	(text "Datasheet recommends 15uH but that's\nan extra BOM item so trying 10uH for\nnow and may just add more output\ncapacitance."
 		(exclude_from_sim no)
-		(at 144.78 45.72 0)
+		(at 139.7 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3145,7 +2944,7 @@
 	)
 	(text "Iout = 0.5A, Target 40% ripple -> Imax = 0.6A.\nAdd 50% margin -> Isat(min) = 0.9A."
 		(exclude_from_sim no)
-		(at 95.25 45.72 0)
+		(at 87.63 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3269,6 +3068,12 @@
 		(uuid "9039ed9a-cc9c-4ffd-8426-545e2fc9e42b")
 	)
 	(junction
+		(at 180.34 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d5a59f-d20d-4c66-b2a8-01b69bfd1104")
+	)
+	(junction
 		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3284,7 +3089,7 @@
 		(at 167.64 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0968484-68f3-436f-b786-9955c1ac38d9")
+		(uuid "c0a69d98-3475-42f2-8226-18a9e44eaa62")
 	)
 	(junction
 		(at 91.44 53.34)
@@ -3480,13 +3285,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 177.8) (xy 154.94 180.34)
+			(xy 167.64 177.8) (xy 167.64 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f102d50-e0df-40c5-afe2-1a3ce898589b")
+		(uuid "1ea52600-d226-48d7-b00a-93ddc3270097")
 	)
 	(wire
 		(pts
@@ -3790,7 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 165.1) (xy 167.64 165.1)
+			(xy 154.94 165.1) (xy 167.64 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3897,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "7f4b97da-70e2-4dbc-87c5-e696e83f0733")
-	)
-	(wire
-		(pts
-			(xy 154.94 165.1) (xy 167.64 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5b835e-0b7c-4fe1-9cf3-526baec7a02b")
 	)
 	(wire
 		(pts
@@ -4100,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 162.56) (xy 170.18 165.1)
+			(xy 185.42 162.56) (xy 185.42 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4117,6 +3912,16 @@
 			(type default)
 		)
 		(uuid "b628ab24-e115-407f-9f57-5858b838ed56")
+	)
+	(wire
+		(pts
+			(xy 142.24 177.8) (xy 142.24 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69b3dfe-4294-4149-b28a-6f84cf05d098")
 	)
 	(wire
 		(pts
@@ -4160,13 +3965,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 177.8) (xy 167.64 180.34)
+			(xy 180.34 165.1) (xy 180.34 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c03703ec-9459-4ab3-9ff1-8d8f3dffe604")
+		(uuid "bffcc472-2a06-44fb-b766-f699b0d842fc")
+	)
+	(wire
+		(pts
+			(xy 180.34 165.1) (xy 185.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02a62c3-9221-421d-b3cf-952d18c2afbf")
 	)
 	(wire
 		(pts
@@ -4300,6 +4115,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 177.8) (xy 180.34 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8871032-c550-4f2a-9187-b7a7e0394ea1")
+	)
+	(wire
+		(pts
 			(xy 124.46 109.22) (xy 127 109.22)
 		)
 		(stroke
@@ -4310,6 +4135,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 165.1) (xy 167.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21583ce-73ab-48c4-ba8f-260850f61165")
+	)
+	(wire
+		(pts
 			(xy 142.24 165.1) (xy 142.24 167.64)
 		)
 		(stroke
@@ -4317,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "e6179d48-29ba-4675-bd5d-81bf249511cf")
+	)
+	(wire
+		(pts
+			(xy 154.94 177.8) (xy 154.94 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e736a571-eac4-41af-b561-912dfa58b680")
 	)
 	(wire
 		(pts
@@ -4337,6 +4182,16 @@
 			(type default)
 		)
 		(uuid "e9a4fa81-d79c-493c-a5e5-ba905c7b7799")
+	)
+	(wire
+		(pts
+			(xy 167.64 165.1) (xy 180.34 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7aa3d6-62fa-4755-ae19-89c7b632f397")
 	)
 	(wire
 		(pts
@@ -4390,16 +4245,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 177.8) (xy 142.24 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3caa43a-999b-433f-98e6-7e7deb990203")
-	)
-	(wire
-		(pts
 			(xy 137.16 53.34) (xy 139.7 53.34)
 		)
 		(stroke
@@ -4417,16 +4262,6 @@
 			(type default)
 		)
 		(uuid "f8073d01-f01e-4a0e-92b1-44f0d83894eb")
-	)
-	(wire
-		(pts
-			(xy 167.64 165.1) (xy 167.64 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f835d1ef-0380-43a3-9f91-b0cc7df20142")
 	)
 	(wire
 		(pts
@@ -4846,6 +4681,155 @@
 		)
 	)
 	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 167.64 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e13109-683f-4d0a-84e6-cb2cb86c97d1")
+		(property "Reference" "C37"
+			(at 171.45 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 171.45 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 171.45 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 167.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d86b1550-4e67-4532-8d9b-2697a9435021")
+		)
+		(pin "2"
+			(uuid "e1557c00-81da-430b-888a-190a478d4649")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IC_WUT:TI_LMR54410DBV")
 		(at 114.3 53.34 0)
 		(unit 1)
@@ -5043,6 +5027,155 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 154.94 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199d1cd4-b3bf-4396-8544-c0cfd9d785ce")
+		(property "Reference" "C35"
+			(at 158.75 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 158.75 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 158.75 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1481bff5-0896-43b5-a0e2-63bf9236c766")
+		)
+		(pin "2"
+			(uuid "954ea9ab-829d-42ee-b7d4-1aa6f0feb49c")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -5556,233 +5689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
-		(at 167.64 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e701cb3-59cc-4c20-88d6-2c1317d3555e")
-		(property "Reference" "C23"
-			(at 171.45 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 171.45 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 171.45 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 100 100 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C3216X5R1E476M160AC"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.6mm"
-			(at 167.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1d4ee67-8e9a-4d90-88fb-03559e1a597e")
-		)
-		(pin "2"
-			(uuid "4e6808aa-94bf-46b3-a41a-8a0c3ad8563f")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 167.64 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eae4db9-b75d-4441-8209-c22ea87e846d")
-		(property "Reference" "#PWR071"
-			(at 167.64 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 167.64 184.15 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1be56e2b-5793-4390-a5dc-abe2e93f5072")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_WUT:0V")
 		(at 55.88 68.58 0)
 		(unit 1)
@@ -6135,19 +6041,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 154.94 180.34 0)
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 142.24 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44aae372-8190-43eb-910b-263d32f8c965")
-		(property "Reference" "#PWR070"
-			(at 154.94 180.34 0)
+		(uuid "3bff8d6e-7c47-4395-96a3-9e88e50edd75")
+		(property "Reference" "C36"
+			(at 146.05 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 146.05 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,18 +6085,8 @@
 				)
 			)
 		)
-		(property "Value" "0V"
-			(at 154.94 184.15 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 180.34 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6178,8 +6096,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 180.34 0)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,8 +6107,64 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 180.34 0)
+		(property "Voltage" "16V"
+			(at 146.05 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,12 +6175,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c90d34d-1bb2-4e8b-bf04-474f400a4460")
+			(uuid "b1e98635-9b11-4740-bb84-86346def94bc")
+		)
+		(pin "2"
+			(uuid "85953db2-3372-4b38-9e51-d100bc11ee95")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR070")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6636,6 +6613,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 154.94 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50906da4-bbbf-47ab-8a17-a74868919aa4")
+		(property "Reference" "#PWR043"
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 154.94 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4268e0f6-7b63-4b1b-a8f9-65b7741b4cd4")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP4702F")
 		(at 198.12 121.92 0)
 		(unit 1)
@@ -6904,6 +6959,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 167.64 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc44927-223f-4b70-b9aa-f2814f8364bd")
+		(property "Reference" "#PWR070"
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 167.64 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dccea7dd-af44-45fc-a67e-28f1a38c2d95")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7402,6 +7535,155 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 180.34 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75896aad-951d-4af3-963f-28a14c4101d6")
+		(property "Reference" "C38"
+			(at 184.15 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 184.15 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 184.15 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 180.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2026c6fd-8615-456b-8d7c-8efe0ac0282a")
+		)
+		(pin "2"
+			(uuid "d785b2cb-7227-4e2e-affc-2070dd1599cf")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -8361,84 +8643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_WUT:0V")
-		(at 142.24 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96624cc1-e68d-46c0-97f9-7b4b55275b47")
-		(property "Reference" "#PWR069"
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0V"
-			(at 142.24 184.15 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dce350fc-4085-45f6-9388-a5688103ce21")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_WUT:3V3")
 		(at 215.9 55.88 0)
 		(unit 1)
@@ -8981,155 +9185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
-		(at 142.24 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7c21f95-d093-4e8d-89e3-4feed149cd2d")
-		(property "Reference" "C20"
-			(at 146.05 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 146.05 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 146.05 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 100 100 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C3216X5R1E476M160AC"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.6mm"
-			(at 142.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f82cad4-60e2-463e-aa3c-83a132310e41")
-		)
-		(pin "2"
-			(uuid "d4daa5b6-4ff7-4540-aab1-52ee859320e3")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
 		(at 172.72 66.04 0)
 		(unit 1)
@@ -9472,155 +9527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "capacitor_auto_wut:TDK C3216X5R1E476M160AC")
-		(at 154.94 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd9a3fff-c67b-46e9-9477-d997fb12d9fc")
-		(property "Reference" "C22"
-			(at 158.75 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 158.75 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47u 20% 25V 1206 X5R Capacitor"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 158.75 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 100 100 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C3216X5R1E476M160AC"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.6mm"
-			(at 154.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "914a9fe5-fd0e-4b0a-97c7-b52833ab7e84")
-		)
-		(pin "2"
-			(uuid "e2826f09-4f02-4380-a2e2-aada62f5a35e")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "inductor_auto_wut:APV ANR4030T100M")
 		(at 147.32 114.3 90)
 		(unit 1)
@@ -9895,6 +9801,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "#PWR39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 180.34 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db78d540-f3e9-42dd-ae7b-ee920653a490")
+		(property "Reference" "#PWR071"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 180.34 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5512e1-fe65-4ee6-97fb-73f4b1028b94")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10349,6 +10333,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 142.24 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9941ed5-60c4-4d9b-a388-485d86b78215")
+		(property "Reference" "#PWR069"
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 142.24 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a97acb77-db02-47e9-b517-64b8ae30540c")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/35d58bcc-6ce4-4583-93f1-63aee4dbfc17"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11064,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:3V3")
-		(at 170.18 162.56 0)
+		(at 185.42 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11013,7 +11075,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc3bf56-dd3c-4d14-8409-e804dad1f082")
 		(property "Reference" "#PWR074"
-			(at 169.545 165.735 0)
+			(at 184.785 165.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11024,7 +11086,7 @@
 			)
 		)
 		(property "Value" "5V_VBUS"
-			(at 170.18 158.75 0)
+			(at 185.42 158.75 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11034,7 +11096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 162.56 0)
+			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +11107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 162.56 0)
+			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 162.56 0)
+			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4885,6 +4885,16 @@
 				(justify right)
 			)
 		)
+		(pin "DFU_EN" input
+			(at 99.06 157.48 0)
+			(uuid "ccda414e-dad0-4138-8aa0-b5809d531ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"

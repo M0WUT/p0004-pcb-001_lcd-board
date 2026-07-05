@@ -2268,145 +2268,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch_WUT:Khon_SC109AM1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Khon SC109AM1"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Switch_WUT:Khon_SC109"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
+		(symbol "Power_WUT:0V"
+			(power global)
+			(pin_numbers
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
-			(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Khon"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SC109AM1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Order #" "C42435457"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Khon_SC109AM1_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54) (xy 1.27 0) (xy 2.54 0) (xy 2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 0)
-						(xy -1.27 0) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch_WUT:Khon_TSB06331-090D332DA-R0500"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(in_bom no)
+			(on_board no)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Khon TSB06331-090D332DA-R0500"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Switch_WUT:Khon_TSB06331-090"
+			(property "Reference" "#PWR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2417,7 +2292,17 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
+			(property "Value" "0V"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2428,7 +2313,7 @@
 					)
 				)
 			)
-			(property "Description" "SMD 6x6mm Tactile Switch"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2439,7 +2324,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Khon"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2450,21 +2335,10 @@
 					)
 				)
 			)
-			(property "MPN" "TSB06331-090D332DA-R0500"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Khon_TSB06331-090D332DA-R0500_0_1"
+			(symbol "0V_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -2.54 0)
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2476,10 +2350,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
+						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2487,57 +2361,12 @@
 					)
 				)
 			)
-			(symbol "Khon_TSB06331-090D332DA-R0500_1_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
+			(symbol "0V_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "0V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2552,53 +2381,109 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_WUT:3V3"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at -0.635 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
+			)
+			(property "Value" "3V3"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3V3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2610,15 +2495,319 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 205.74 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e624d7f-2b29-43d7-862e-26d923bd1564")
+	)
+	(junction
+		(at 205.74 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "225df12e-2f19-4f0f-b196-b1661faae4d4")
+	)
+	(junction
+		(at 205.74 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "353eb7b5-7202-4420-99c6-a281d22486d3")
+	)
+	(junction
+		(at 205.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62a8496a-f306-4625-bedb-f7f566302f23")
+	)
+	(junction
+		(at 205.74 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c8ea23-ee1d-47ec-b98e-64e8d81ac75d")
+	)
+	(junction
+		(at 205.74 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1848202-210b-458a-8e0d-d5d6d8a98099")
+	)
+	(junction
+		(at 205.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1d074e1-e592-4ef5-95a9-ffe1934d037f")
+	)
+	(junction
+		(at 205.74 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac6e6e68-0fad-4d43-b414-436a735c61f0")
+	)
+	(junction
+		(at 205.74 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c504f98f-ecf3-4f45-ae0e-9c6a41999fbb")
+	)
+	(junction
+		(at 205.74 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4851fd-a41d-4c9d-9fab-efbd5ce07ddb")
+	)
+	(junction
+		(at 205.74 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e41ffd00-fb55-4b1d-96b7-fa372a97c064")
+	)
+	(junction
+		(at 205.74 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec06c332-2bd7-4bb1-881e-291ab3df68f3")
+	)
+	(junction
+		(at 205.74 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5a3fbb-91cd-4534-8602-b613c77574fe")
+	)
+	(junction
+		(at 205.74 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1ca3a79-095f-42f4-9147-09bd04cea3d2")
+	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 111.76 165.1)
+			(xy 170.18 137.16) (xy 187.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0011132e-57be-45fc-a859-6090497b350f")
+	)
+	(wire
+		(pts
+			(xy 205.74 116.84) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0337149f-77a4-4f61-9fa1-3636d2e846d2")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c24feb3-943d-4159-b1c1-7bd23f927326")
+	)
+	(wire
+		(pts
+			(xy 170.18 129.54) (xy 187.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee79bfa-9a3f-4100-b517-21e85d37e10f")
+	)
+	(wire
+		(pts
+			(xy 190.5 180.34) (xy 208.28 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1582a248-9de5-4cc4-bdb3-f28d14dd1ac1")
+	)
+	(wire
+		(pts
+			(xy 170.18 144.78) (xy 170.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b5664b-903d-4be8-a656-641894683d14")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d77f4e3-84dd-4fec-848a-688e5579340b")
+	)
+	(wire
+		(pts
+			(xy 205.74 114.3) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbcfe09-86e5-4145-a44d-a182d50fa368")
+	)
+	(wire
+		(pts
+			(xy 81.28 165.1) (xy 111.76 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "200b730c-48e2-4159-9320-4acd65bf772b")
+	)
+	(wire
+		(pts
+			(xy 170.18 121.92) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2569495e-41de-486d-88b7-cc9ccdda8bb5")
+	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f9b152-3b51-4f7e-abf0-eb3200add7ac")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5d2b3d-14e1-4a3d-8688-d6db49634a69")
+	)
+	(wire
+		(pts
+			(xy 205.74 139.7) (xy 205.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5564d9-f3ca-4696-9633-a5e47f31bb03")
+	)
+	(wire
+		(pts
+			(xy 190.5 170.18) (xy 208.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bbf2e6-825e-4e5b-b82c-2060a2c1ab66")
+	)
+	(wire
+		(pts
+			(xy 205.74 137.16) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369dc2b4-2c28-465c-b2a4-0042623f6174")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431d92da-4ece-4145-a7ab-9749984823ec")
+	)
+	(wire
+		(pts
+			(xy 180.34 147.32) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a4cc3b-b219-4ad9-bc17-857c85837206")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 205.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c49e1e-22e6-4acc-b126-d0eda6d97193")
+	)
+	(wire
+		(pts
+			(xy 81.28 152.4) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dcad9d-5ebf-41f4-b8c6-2648a41da651")
+	)
+	(wire
+		(pts
+			(xy 81.28 180.34) (xy 99.06 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5761f8ea-4fd3-44f3-92d0-166e00587406")
+	)
+	(wire
+		(pts
+			(xy 205.74 121.92) (xy 205.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5923db1e-3c45-4de6-a965-3c9b7a870095")
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7b9216-adba-4eca-8e54-153e8c788a5d")
+	)
+	(wire
+		(pts
+			(xy 99.06 180.34) (xy 99.06 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da28610-c3d1-4f43-ae8b-1e0da8ba9ec1")
 	)
 	(wire
 		(pts
@@ -2632,13 +2821,23 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 162.56) (xy 111.76 162.56)
+			(xy 81.28 162.56) (xy 111.76 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64b9776c-4602-4e5d-a180-9752ebc031f2")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc606bd-c3bd-4a11-be91-1c3cc74652e2")
 	)
 	(wire
 		(pts
@@ -2652,7 +2851,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 175.26) (xy 104.14 175.26)
+			(xy 190.5 172.72) (xy 208.28 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7650930f-7821-4fb2-b454-a2082b93a975")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8007f335-4e0d-4fa2-8795-78c8d6f57d34")
+	)
+	(wire
+		(pts
+			(xy 81.28 175.26) (xy 104.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2881,227 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 167.64) (xy 111.76 167.64)
+			(xy 203.2 109.22) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818e2fe8-08e2-4bf8-8cd7-e1d7336467aa")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832c8c77-86c1-42d4-8ff0-ebaaede1e723")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86244c94-6f21-4725-8ce2-7d9ef0bd1725")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 187.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c6816e-8d2f-444c-b9a0-f230e4ae51ea")
+	)
+	(wire
+		(pts
+			(xy 205.74 124.46) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5b0050-42a2-4154-8565-91983a1e1d91")
+	)
+	(wire
+		(pts
+			(xy 203.2 121.92) (xy 205.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913ca7a6-33ef-488e-a6b1-e5e15b3ec361")
+	)
+	(wire
+		(pts
+			(xy 205.74 127) (xy 205.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9214817d-b826-4804-81de-97ddc4bf9bee")
+	)
+	(wire
+		(pts
+			(xy 81.28 160.02) (xy 109.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941b4fc1-8381-4ddd-9d1d-94fc4ec9a009")
+	)
+	(wire
+		(pts
+			(xy 99.06 213.36) (xy 111.76 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945131a4-af1f-4a7d-a9a7-a5ea8b31fe79")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e3016c-37ee-45bc-a35c-6f770be8e511")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d82568-3101-4b94-8fb4-bc022dc9eff6")
+	)
+	(wire
+		(pts
+			(xy 170.18 147.32) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6be453e-39d0-4268-90a4-073020c9475c")
+	)
+	(wire
+		(pts
+			(xy 190.5 162.56) (xy 208.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a857450d-8ac9-4dc6-a30e-864563dc825d")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52bd506-1355-4e22-8f91-7c293b147db7")
+	)
+	(wire
+		(pts
+			(xy 106.68 198.12) (xy 111.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b5ba37-a128-4e82-b529-f7c4e60ff795")
+	)
+	(wire
+		(pts
+			(xy 190.5 165.1) (xy 208.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75b8227-e652-493a-a889-1697d6da38e1")
+	)
+	(wire
+		(pts
+			(xy 180.34 139.7) (xy 187.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b827b5eb-f40a-4d46-aea1-52bf9e458442")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be66004f-bc01-44ff-acc6-43c3a5ce314b")
+	)
+	(wire
+		(pts
+			(xy 205.74 134.62) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee73bbe-3b8c-4260-ad53-cc50b0cec8e8")
+	)
+	(wire
+		(pts
+			(xy 205.74 111.76) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0213e09-dc3e-4e11-9441-e2c2475c03f4")
+	)
+	(wire
+		(pts
+			(xy 203.2 124.46) (xy 205.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c042e676-2d6a-4e95-868c-ac8a3680e3da")
+	)
+	(wire
+		(pts
+			(xy 203.2 134.62) (xy 205.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2743978-650c-4b1b-a08a-5e7e280636fe")
+	)
+	(wire
+		(pts
+			(xy 81.28 167.64) (xy 111.76 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +3121,57 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 177.8) (xy 99.06 177.8)
+			(xy 170.18 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb39d3de-d63c-4d13-b5f9-0e6954936061")
+	)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5aa6ee-7865-4ce2-a3a4-f5f88f5614d5")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe0565d-569a-498d-ad09-dbdba6fd7593")
+	)
+	(wire
+		(pts
+			(xy 190.5 177.8) (xy 208.28 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d566f6d7-da69-457a-990d-46848e93490d")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dc51f1-9eaf-4f76-b321-963297af7ea1")
+	)
+	(wire
+		(pts
+			(xy 101.6 177.8) (xy 81.28 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2700,148 +3189,370 @@
 		)
 		(uuid "dd0e0c5f-94b9-4319-8186-d9b0c0bba272")
 	)
-	(symbol
-		(lib_id "Switch_WUT:Khon_TSB06331-090D332DA-R0500")
-		(at 78.74 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01937af4-cb40-47c6-940c-2fb339e97e25")
-		(property "Reference" "SW2"
-			(at 78.74 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(wire
+		(pts
+			(xy 203.2 127) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de03fbfc-0512-4165-a2b9-21014dca1b4f")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df41c0b7-7a89-4a84-a4f7-43ab88b3104d")
+	)
+	(wire
+		(pts
+			(xy 81.28 157.48) (xy 109.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff6e377-a482-4b3c-abcf-46db5ee4f2de")
+	)
+	(wire
+		(pts
+			(xy 170.18 134.62) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a77380-a467-4bf3-9cd4-51bef18db7ae")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 205.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e9e2de-acc5-4eae-80a0-300d9b1d03b6")
+	)
+	(wire
+		(pts
+			(xy 170.18 124.46) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63dc3c2-a4db-4681-87a6-19822fd02e1b")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cfba9b-4cdf-4f9b-ba14-7d4eeef9f018")
+	)
+	(wire
+		(pts
+			(xy 170.18 132.08) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5c72a4-042d-40f0-a104-ab8b2a954d86")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1732b77-73bb-4ebe-b0ac-d3cf2ff779e2")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62bc6cd-4540-4b44-a780-1356be5960a7")
+	)
+	(wire
+		(pts
+			(xy 203.2 129.54) (xy 205.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8da5727-f1cc-4e4c-8ad7-bfda6f93cf7e")
+	)
+	(label "ETH_TX_P"
+		(at 208.28 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "Khon TSB06331-090D332DA-R0500"
-			(at 78.74 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "2cd9dec9-8ba0-4432-a072-085c0448ad5a")
+	)
+	(label "VIN"
+		(at 106.68 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" "Switch_WUT:Khon_TSB06331-090"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "3f94c457-c0c2-418d-b2cd-1482ccd7ae43")
+	)
+	(label "~{ETH_ACT_OD}"
+		(at 208.28 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "4757d508-7380-465b-8c15-0af75d7cf070")
+	)
+	(label "ETH_RX_N"
+		(at 208.28 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Description" "SMD 6x6mm Tactile Switch"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "55b1ebd8-368b-4ac8-859a-6444934e0c2d")
+	)
+	(label "~{ETH_LINK_OD}"
+		(at 208.28 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Manufacturer" "Khon"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "63450fc3-992d-4a39-8bcc-373aa9d56ced")
+	)
+	(label "DFU_EN"
+		(at 170.18 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "MPN" "TSB06331-090D332DA-R0500"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "661ccdff-221f-4af6-a5f8-001766c4a194")
+	)
+	(label "VIN"
+		(at 170.18 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "2"
-			(uuid "2a3c5f41-968c-4c93-99cd-f6c6e14bcb7d")
-		)
-		(pin "1"
-			(uuid "21dab758-eb25-4ba1-a9dd-4b3a432ff498")
-		)
-		(pin "3"
-			(uuid "d90a509f-acb3-41c1-ab77-afaf399e6cf3")
-		)
-		(pin "4"
-			(uuid "9974adbb-97e0-4d5e-96d7-7f290a265356")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "SW2")
-					(unit 1)
-				)
+		(uuid "6834b2d8-7dce-4ec1-b1bd-7c9d2e177284")
+	)
+	(label "USB_N"
+		(at 170.18 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "6f77dbe4-7831-4f04-b0c6-b6f951be4968")
+	)
+	(label "ETH_TX_P"
+		(at 170.18 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b21cfd2-5fa5-4a1e-a40b-2f8e7e6369f3")
+	)
+	(label "USB_P"
+		(at 170.18 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9649698b-8fad-4b51-af68-07c6cec99e89")
+	)
+	(label "INT_SDA"
+		(at 170.18 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2587c19-5aba-42e0-a2a9-df9eacbbdb0b")
+	)
+	(label "ETH_RX_P"
+		(at 208.28 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5dcadf2-e431-4e7b-9c5b-1817f33a2481")
+	)
+	(label "~{INT_ALERT}"
+		(at 170.18 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a792917c-e4bd-43da-9fae-82ff6267b9dd")
+	)
+	(label "USB_P"
+		(at 109.22 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b374e0fe-e7ba-4da9-b3fb-9da73da710dc")
+	)
+	(label "INT_SCL"
+		(at 170.18 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b441eee2-3224-43f7-a04d-617dc5c760ed")
+	)
+	(label "ETH_TX_N"
+		(at 208.28 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf097f11-1816-4239-84cd-77cb8bb63914")
+	)
+	(label "~{ETH_ACT_OD}"
+		(at 170.18 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc84ac7f-ac0b-4969-b6d9-74dd8724bc46")
+	)
+	(label "ETH_TX_N"
+		(at 170.18 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd33d346-08c2-4751-b174-a4fc7ef428b4")
+	)
+	(label "ETH_RX_N"
+		(at 170.18 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e204b8c2-26c2-4bad-9e31-8141ebf39fc4")
+	)
+	(label "DFU_EN"
+		(at 109.22 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e38e21bd-78ce-4f91-8c50-6a2b0245ff6a")
+	)
+	(label "USB_N"
+		(at 109.22 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3a42c53-a67e-4c48-936e-2b4ab6ba072c")
+	)
+	(label "~{ETH_LINK_OD}"
+		(at 170.18 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e52d78e7-cc00-4896-9481-62fb828648d8")
+	)
+	(label "ETH_RX_P"
+		(at 170.18 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9c0f126-0187-44b1-a208-405a241700e7")
+	)
+	(label "~{INT_ALERT}"
+		(at 109.22 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea47f503-51e3-4659-b3cb-a1a7c43d41a8")
 	)
 	(symbol
-		(lib_id "Switch_WUT:Khon_TSB06331-090D332DA-R0500")
-		(at 114.3 96.52 0)
+		(lib_id "Power_WUT:0V")
+		(at 185.42 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22b47c10-7d70-4b4d-bad4-5927587d5b5e")
-		(property "Reference" "SW4"
-			(at 114.3 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon TSB06331-090D332DA-R0500"
-			(at 114.3 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_TSB06331-090"
-			(at 114.3 96.52 0)
+		(uuid "14b7f0cf-8abc-445f-b09c-6544fee16044")
+		(property "Reference" "#PWR0114"
+			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,8 +3562,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
-			(at 114.3 96.52 0)
+		(property "Value" "0V"
+			(at 185.42 146.05 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,8 +3583,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD 6x6mm Tactile Switch"
-			(at 114.3 96.52 0)
+		(property "Datasheet" ""
+			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,8 +3594,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Khon"
-			(at 114.3 96.52 0)
+		(property "Description" ""
+			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,34 +3604,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "TSB06331-090D332DA-R0500"
-			(at 114.3 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44517461-2fbe-41b4-8acb-9dd177f38f6f")
 		)
 		(pin "1"
-			(uuid "b6d64b2a-c585-447b-9887-dc82b47e1b5e")
-		)
-		(pin "3"
-			(uuid "40dc1ab6-4408-4967-8c8d-beb14670d569")
-		)
-		(pin "4"
-			(uuid "7d78fcaf-b66d-444b-adf7-58771a4848a1")
+			(uuid "195686da-6a67-49c9-af5e-d586a28516eb")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "SW4")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3007,113 +3708,6 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch_WUT:Khon_SC109AM1")
-		(at 60.96 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26cdbc5a-4b36-4e98-b4ca-018b83260cf4")
-		(property "Reference" "H3"
-			(at 60.96 105.41 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon SC109AM1"
-			(at 60.96 111.76 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_SC109"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch cap"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Khon"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SC109AM1"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Order #" "C42435457"
-			(at 60.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3817,6 +4411,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 170.18 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8237fc22-5f91-4a2c-8464-43a306104d70")
+		(property "Reference" "#PWR0115"
+			(at 169.545 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_EXPANSION"
+			(at 170.18 140.97 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "894e75e8-ca5b-42ac-8fe1-efe8f8d96b37")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Layout_WUT:Logo_10mmx10mm")
 		(at 273.05 270.51 0)
 		(unit 1)
@@ -3892,223 +4564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_WUT:Khon_SC109AM1")
-		(at 78.74 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ba4d6bc-f699-43b8-90e8-1aefb87c4b08")
-		(property "Reference" "H6"
-			(at 78.74 105.41 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon SC109AM1"
-			(at 78.74 111.76 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_SC109"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch cap"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Khon"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SC109AM1"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Order #" "C42435457"
-			(at 78.74 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch_WUT:Khon_TSB06331-090D332DA-R0500")
-		(at 60.96 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96639051-c788-4133-98e0-6f027bb70264")
-		(property "Reference" "SW1"
-			(at 60.96 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon TSB06331-090D332DA-R0500"
-			(at 60.96 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_TSB06331-090"
-			(at 60.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
-			(at 60.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 6x6mm Tactile Switch"
-			(at 60.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Khon"
-			(at 60.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB06331-090D332DA-R0500"
-			(at 60.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "161734c1-14c1-47df-845f-4290fafda0ee")
-		)
-		(pin "1"
-			(uuid "5f20ff14-5f38-4608-94a5-6cc2926a8a56")
-		)
-		(pin "3"
-			(uuid "fb96ec3f-a3b5-4cc2-ba40-54dd479d4aa9")
-		)
-		(pin "4"
-			(uuid "631a7971-515e-433e-bfba-fdb1d5a8ea8f")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_WUT:Liansheng_PH-00603")
-		(at 196.85 104.14 0)
+		(at 195.58 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4116,10 +4573,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97e329d7-674a-4dab-8334-bd7daeb683df")
 		(property "Reference" "CN1"
-			(at 196.85 101.6 0)
+			(at 195.58 99.06 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4129,7 +4585,7 @@
 			)
 		)
 		(property "Value" "Liansheng PH--00603"
-			(at 196.85 142.494 0)
+			(at 195.58 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4139,7 +4595,7 @@
 			)
 		)
 		(property "Footprint" "Connector_WUT:Liansheng_PH--00603"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4150,7 +4606,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588911640884482049-C2685170.pdf?response-content-disposition=attachment%3B%20filename%3DC2685170.pdf%3B%20filename%2A%3DUTF-8%27%27C2685170.pdf&x-oss-date=20260423T092910Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rzeuPBh7lW9YWTU3b6jWlhO9pUtpHEiDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb9agi1y4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkpvVN9pTnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIymqANKKWD5sagAFveyifX12%2FLp%2FCE%2FKdxBMrseTBQyDUeb0jJoPqwaKvyVsJsV4ZfqnBF9SK3fQ%2BLgo2Yi1oXD6Np4FtHz2vMnvbOiU%2B0ZVK1qF4oyw1yBuoyIMeVJ%2FfsISWpL0RCICbhqQMzPAfAf9MORpZZ7Pv50ED6UnRAoQCPJ56GUjLyg6ysCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYF1YujfwBGxQPKii47UxYToj%2F20260423%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=c136410685b4ff5060e3b5002f34d5fd18096e582ce3e4d5cd6ad66759428c6f"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4617,7 @@
 			)
 		)
 		(property "Description" "2x15 SMD header, 2.54mm pitch"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,7 +4628,7 @@
 			)
 		)
 		(property "Manufacturer" "Liansheng"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4639,7 @@
 			)
 		)
 		(property "MPN" "PH--00603"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,7 +4650,7 @@
 			)
 		)
 		(property "JLC Part Number" "C2685170"
-			(at 196.85 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,113 +4760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_WUT:Khon_SC109AM1")
-		(at 114.3 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f6009b5-76cc-443d-a396-fd8b741a1c90")
-		(property "Reference" "H10"
-			(at 114.3 105.41 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon SC109AM1"
-			(at 114.3 111.76 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_SC109"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch cap"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Khon"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SC109AM1"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Order #" "C42435457"
-			(at 114.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Accessories_WUT:Accu_HPS-4-2.2-5-POM-BL")
 		(at 114.3 129.54 0)
 		(unit 1)
@@ -4507,39 +4856,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_WUT:Khon_TSB06331-090D332DA-R0500")
-		(at 96.52 96.52 0)
+		(lib_id "Power_WUT:0V")
+		(at 205.74 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2ae578c-5434-4b47-98e3-62a8e6c759df")
-		(property "Reference" "SW3"
-			(at 96.52 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon TSB06331-090D332DA-R0500"
-			(at 96.52 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_TSB06331-090"
-			(at 96.52 96.52 0)
+		(uuid "bda55a8f-dcc3-422a-9ab2-b1fec96c4c2d")
+		(property "Reference" "#PWR0113"
+			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,8 +4878,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202309/TSB06331.pdf"
-			(at 96.52 96.52 0)
+		(property "Value" "0V"
+			(at 205.74 146.05 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4560,8 +4899,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD 6x6mm Tactile Switch"
-			(at 96.52 96.52 0)
+		(property "Datasheet" ""
+			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,8 +4910,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Khon"
-			(at 96.52 96.52 0)
+		(property "Description" ""
+			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,141 +4920,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "TSB06331-090D332DA-R0500"
-			(at 96.52 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "19aa7d64-4454-41bc-bfda-b32d81dd6028")
 		)
 		(pin "1"
-			(uuid "f73f8861-ddb5-4423-8d6e-ffa147339767")
-		)
-		(pin "3"
-			(uuid "8f54c0aa-fdba-486c-a5ce-3040966fa8d4")
-		)
-		(pin "4"
-			(uuid "f20e5a93-e21d-4084-bd84-af98da1f4b6d")
+			(uuid "b98b3ff6-6b3a-4ab9-ab72-c398a4ed996d")
 		)
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch_WUT:Khon_SC109AM1")
-		(at 96.52 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea1c741-3bb9-4085-8c49-a60c13e54e49")
-		(property "Reference" "H7"
-			(at 96.52 105.41 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Khon SC109AM1"
-			(at 96.52 111.76 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_WUT:Khon_SC109"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.khon-switch.com/upload/1c/202307/SC109%20Switch%20Cap.pdf"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch cap"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Khon"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SC109AM1"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Order #" "C42435457"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H7")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4779,9 +4991,19 @@
 				(justify left)
 			)
 		)
-		(pin "~{VBUS_FAULT}" output
+		(pin "~{5V_VBUS_FAULT}" output
 			(at 111.76 208.28 180)
 			(uuid "38d11a62-3c9c-4263-b875-2b4a013e44f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{3V3_EXPANSION_FAULT}" output
+			(at 111.76 213.36 180)
+			(uuid "9a516078-d91e-4083-bc66-d6835b49f0e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +5021,7 @@
 	)
 	(sheet
 		(at 11.43 149.86)
-		(size 87.63 34.29)
+		(size 69.85 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4836,7 +5058,7 @@
 			)
 		)
 		(pin "{SPI}" bidirectional
-			(at 99.06 162.56 0)
+			(at 81.28 162.56 0)
 			(uuid "5527370f-ba47-42f7-918c-4b26a479453e")
 			(effects
 				(font
@@ -4846,7 +5068,7 @@
 			)
 		)
 		(pin "~{ETH_PHY_INT}" input
-			(at 99.06 167.64 0)
+			(at 81.28 167.64 0)
 			(uuid "5fb4dee0-d77a-4057-a0cb-4bb3ac92c396")
 			(effects
 				(font
@@ -4856,7 +5078,7 @@
 			)
 		)
 		(pin "~{ETH_PHY_RESET}" output
-			(at 99.06 165.1 0)
+			(at 81.28 165.1 0)
 			(uuid "33eea50b-e578-4c11-8748-5a1ec31e496d")
 			(effects
 				(font
@@ -4866,7 +5088,7 @@
 			)
 		)
 		(pin "~{USB_VBUS_FAULT}" input
-			(at 99.06 177.8 0)
+			(at 81.28 177.8 0)
 			(uuid "699979ab-a52c-416d-b8b6-40632be7a516")
 			(effects
 				(font
@@ -4876,7 +5098,7 @@
 			)
 		)
 		(pin "USB_VBUS_EN" output
-			(at 99.06 175.26 0)
+			(at 81.28 175.26 0)
 			(uuid "35bc23ad-5370-464b-a7ce-f5f75e2fecc4")
 			(effects
 				(font
@@ -4886,8 +5108,48 @@
 			)
 		)
 		(pin "DFU_EN" input
-			(at 99.06 157.48 0)
+			(at 81.28 157.48 0)
 			(uuid "ccda414e-dad0-4138-8aa0-b5809d531ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DEVICE_N" bidirectional
+			(at 81.28 154.94 0)
+			(uuid "aba240c6-0e10-4a99-bed9-1f6a48a6b757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DEVICE_P" bidirectional
+			(at 81.28 152.4 0)
+			(uuid "61982401-8de0-4f30-b9b1-e78052eee0b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT_ALERT}" bidirectional
+			(at 81.28 160.02 0)
+			(uuid "7c9f76cf-d85f-4168-8e1e-33e60b9b7620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{3V3_EXPANSION_FAULT}" input
+			(at 81.28 180.34 0)
+			(uuid "199062e3-0b70-41e1-8331-50a2e7216656")
 			(effects
 				(font
 					(size 1.27 1.27)

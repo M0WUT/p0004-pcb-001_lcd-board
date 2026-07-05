@@ -288,7 +288,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf"
+			(property "Datasheet" "https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2FW5500_ds_v110e-226ffec190c588b69f88d629789585e1.pdf"
 				(at 0 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3297,6 +3297,12 @@
 		(uuid "81ad33e7-a544-4d52-9303-de1a82ef4a71")
 	)
 	(junction
+		(at 167.64 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c43697a-08f5-4bf1-b509-13c19e84deff")
+	)
+	(junction
 		(at 175.26 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3476,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 119.38) (xy 236.22 119.38)
+			(xy 226.06 119.38) (xy 243.84 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 190.5 109.22)
+			(xy 124.46 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3663,6 +3669,16 @@
 			(type default)
 		)
 		(uuid "2575a5d6-f36e-42a4-b0dc-2c7fec234e9e")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278a04b2-483b-44ba-bd65-2c5d4a645a7e")
 	)
 	(wire
 		(pts
@@ -3826,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 236.22 121.92)
+			(xy 226.06 121.92) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3966,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 104.14) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cee1c17-ec11-47b6-aa9b-352e5bed0edb")
+	)
+	(wire
+		(pts
 			(xy 312.42 76.2) (xy 317.5 76.2)
 		)
 		(stroke
@@ -4036,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 121.92) (xy 274.32 121.92)
+			(xy 254 121.92) (xy 274.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4103,6 +4129,16 @@
 			(type default)
 		)
 		(uuid "7dc53f98-6ddb-4a36-8116-f9a12d513e52")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f830cd-f5a4-4398-85e1-f9a965674f3a")
 	)
 	(wire
 		(pts
@@ -4246,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 119.38) (xy 274.32 119.38)
+			(xy 254 119.38) (xy 274.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4273,6 +4309,16 @@
 			(type default)
 		)
 		(uuid "b2ad6469-1a81-4efa-aa7e-0e6b7dc4135e")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53e2c81-d199-4bd0-bd40-b070a3e193a7")
 	)
 	(wire
 		(pts
@@ -4573,16 +4619,6 @@
 			(type default)
 		)
 		(uuid "ef18d930-c6f8-462e-b3d8-4756cb79f5e5")
-	)
-	(wire
-		(pts
-			(xy 157.48 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd00011-1576-47e2-933a-5f6fae665e21")
 	)
 	(wire
 		(pts
@@ -6748,6 +6784,16 @@
 		)
 		(uuid "10f5e4a9-df44-46d9-9dce-3daf9f92ca59")
 	)
+	(label "TX_P"
+		(at 231.14 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "188c93c8-281b-475b-acea-d1476cc54986")
+	)
 	(label "PHY_VDDA"
 		(at 292.1 76.2 0)
 		(effects
@@ -6767,6 +6813,16 @@
 			(justify left bottom)
 		)
 		(uuid "41507199-e442-4810-bc1b-c103b92cc971")
+	)
+	(label "TX_N"
+		(at 231.14 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62770cce-7973-4f36-af5f-b52bf0412670")
 	)
 	(label "MISO"
 		(at 182.88 116.84 0)
@@ -6800,7 +6856,7 @@
 		)
 		(uuid "0c6821b0-f3b6-4194-a65b-19118a2328e4")
 	)
-	(hierarchical_label "ETH_RX_N"
+	(hierarchical_label "ETH_RX_P"
 		(shape input)
 		(at 274.32 129.54 0)
 		(effects
@@ -6811,7 +6867,7 @@
 		)
 		(uuid "168cd7ba-2782-4896-96b2-9ac77cc92cb0")
 	)
-	(hierarchical_label "ETH_TX_P"
+	(hierarchical_label "ETH_TX_N"
 		(shape output)
 		(at 274.32 119.38 0)
 		(effects
@@ -6855,7 +6911,7 @@
 		)
 		(uuid "db1ac70c-68bb-4fad-a2b3-4d5b49fc9780")
 	)
-	(hierarchical_label "ETH_RX_P"
+	(hierarchical_label "ETH_RX_N"
 		(shape input)
 		(at 274.32 127 0)
 		(effects
@@ -6866,7 +6922,7 @@
 		)
 		(uuid "ea01aff3-1fbe-49de-8851-bb3aee41fc02")
 	)
-	(hierarchical_label "ETH_TX_N"
+	(hierarchical_label "ETH_TX_P"
 		(shape output)
 		(at 274.32 121.92 0)
 		(effects
@@ -6884,7 +6940,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 259.08 116.84) (xy 264.16 116.84) (xy 264.16 132.08) (xy 259.08 132.08)
+				(xy 228.6 116.84) (xy 264.16 116.84) (xy 264.16 132.08) (xy 228.6 132.08)
 			)
 			(stroke
 				(width 0)
@@ -7139,6 +7195,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 167.64 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7071f8-e835-4513-99fc-2322e641528f")
+		(property "Reference" "#PWR088"
+			(at 167.005 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 167.64 85.09 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41ce1b2a-7f7a-4e8a-81a0-d77e53390cd9")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7522,6 +7656,143 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1002F")
+		(at 167.64 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24755775-ccbf-498a-bd8e-b1cc1d9c8071")
+		(property "Reference" "R4"
+			(at 170.18 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 170.18 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+			(at 165.862 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10k 1% 0402 0.1W Resistor"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RK73H1ETTP1002F"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4mm"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Power" "0.1W"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a809f9c-038d-4b11-9d89-7ce3c2b75016")
+		)
+		(pin "1"
+			(uuid "18773350-5227-42a7-8e4c-5f11aea5a6c9")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8246,7 +8517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf"
+		(property "Datasheet" "https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2FW5500_ds_v110e-226ffec190c588b69f88d629789585e1.pdf"
 			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8917,7 +9188,7 @@
 	)
 	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP3R30F")
-		(at 241.3 121.92 90)
+		(at 248.92 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8927,7 +9198,7 @@
 		(dnp no)
 		(uuid "60b64480-fbfb-49a0-9104-59020cfaba5f")
 		(property "Reference" "R7"
-			(at 237.49 120.65 90)
+			(at 245.11 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8938,7 +9209,7 @@
 			)
 		)
 		(property "Value" "3R3"
-			(at 245.11 120.65 90)
+			(at 252.73 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8949,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 241.3 123.698 90)
+			(at 248.92 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +9231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8971,7 +9242,7 @@
 			)
 		)
 		(property "Description" "3R3 1% 0402 0.1W Resistor"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,7 +9253,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP3R30F"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8993,7 +9264,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,7 +9275,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9015,7 +9286,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,7 +9297,7 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 241.3 121.92 0)
+			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,7 +12190,7 @@
 	)
 	(symbol
 		(lib_id "resistor_auto_wut:KOA Speer RK73H1ETTP3R30F")
-		(at 241.3 119.38 90)
+		(at 248.92 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11929,7 +12200,7 @@
 		(dnp no)
 		(uuid "f7fd3b31-9232-435a-a1cb-a82f5112b60f")
 		(property "Reference" "R6"
-			(at 237.49 118.11 90)
+			(at 245.11 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11940,7 +12211,7 @@
 			)
 		)
 		(property "Value" "3R3"
-			(at 245.11 118.11 90)
+			(at 252.73 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11951,7 +12222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
-			(at 241.3 121.158 90)
+			(at 248.92 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11962,7 +12233,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +12244,7 @@
 			)
 		)
 		(property "Description" "3R3 1% 0402 0.1W Resistor"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11984,7 +12255,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP3R30F"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11995,7 +12266,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12277,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12017,7 +12288,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12028,7 +12299,7 @@
 			)
 		)
 		(property "Rated Power" "0.1W"
-			(at 241.3 119.38 0)
+			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6964,7 +6964,7 @@
 			(justify right bottom)
 		)
 		(uuid "c92c93b4-1bac-49ef-b03f-df2f24dd1d36")
-		(property "Net Class" "Ethernet Diff Pair"
+		(property "Netclass" "Ethernet Diff Pair"
 			(at 262.3185 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)

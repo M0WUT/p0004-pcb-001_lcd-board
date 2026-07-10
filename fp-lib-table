@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "P0002-LIB-001_KicadComponentLibrary") (type "KiCad") (uri "C:/Users/Dan/Documents/Projects/P0002_KicadWorkflow/libraries/P0002-LIB-001_KicadComponentLibrary.pretty") (options "") (descr ""))
+	(lib (name "Fuse_WUT") (type "KiCad") (uri "${WUT_LIBRARIES}/Fuse_WUT.pretty") (options "") (descr ""))
+)

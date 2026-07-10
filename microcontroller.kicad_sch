@@ -5,6 +5,181 @@
 	(uuid "b1ae196e-5c6a-4e67-ad53-e8f1f13350d3")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Audio_WUT:Fusheng_FUET-5020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LS"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fusheng FUET-5020"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Audio_WUT:Fusheng_FUET-5020"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C391029.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FFJaUAcHT1RWA1IFQlZdVwZQEVhcUFdQRwIMBQICFAAxVlNeRFdcVVFQR1heVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFhfV1ZfWQkaCgg%3D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5x5mm speaker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Fusheng"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "FUET-5020"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Order #" "C391029"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fusheng_FUET-5020_0_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 3.81 6.35) (xy 3.81 -6.35) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fusheng_FUET-5020_1_1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_WUT:Harwin_M20-9990346"
 			(pin_names
 				(hide yes)
@@ -2521,7 +2696,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(property "Footprint" "IC_WUT:SOT-666"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7422,6 +7597,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_WUT:nexperia_BC847C,215"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847C,215"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "IC_WUT:SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C8664.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFJaUAcHT1RWA1IFQlZdVwZQEVhcUFdQRwIMBQICFAAxVlNeRFdcU1JQR1dWVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXQ1NbSQwSGg0%3D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "45V, 100mA NPN transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "nexperia"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "BC847C,215"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Order #" "C8664"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "nexperia_BC847C,215_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 0 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy -1.524 -1.524) (xy -0.508 -2.032) (xy -1.016 -1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "nexperia_BC847C,215_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01"
 			(pin_numbers
 				(hide yes)
@@ -7456,7 +7847,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_WUT:C_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8779,7 +9170,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
+			(property "Footprint" "Diode_WUT:D_SOD-523"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8801,7 +9192,7 @@
 					)
 				)
 			)
-			(property "Description" "5V SOD523 TVS Diode"
+			(property "Description" "5V SOD-523 TVS Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9347,6 +9738,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "diode_auto_wut:JSCJ B2020WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "B2020WS"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_WUT:D_SOD-323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/78412-B2020WS/C77284"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SOD-323 2A Schottky Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JSCJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "B2020WS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JSCJ B2020WS_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JSCJ B2020WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fuse_auto_wut:Littelfuse 0467001.NR"
 			(pin_numbers
 				(hide yes)
@@ -9379,7 +9960,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(property "Footprint" "Fuse_WUT:Fuse_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10198,6 +10779,12 @@
 		(uuid "522d0da1-b253-4e92-ab1d-e64c9dd9de9d")
 	)
 	(junction
+		(at 358.14 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "527da506-fde9-4801-bc7e-1b9805f80dfa")
+	)
+	(junction
 		(at 68.58 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10214,6 +10801,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55ec1a73-a68e-4237-a48e-76c52fc6f5c1")
+	)
+	(junction
+		(at 375.92 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5538ad-98e3-4438-87bf-5800faf53d02")
 	)
 	(junction
 		(at 63.5 48.26)
@@ -10292,6 +10885,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "871205c7-9d8c-41c7-a69c-dd4dd228e552")
+	)
+	(junction
+		(at 375.92 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884ca836-5fcf-4ec1-950e-e3456e05aae2")
 	)
 	(junction
 		(at 276.86 213.36)
@@ -10581,6 +11180,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 243.84) (xy 355.6 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042fa9e3-9141-457e-9c99-8f41719e02e2")
+	)
+	(wire
+		(pts
 			(xy 88.9 71.12) (xy 93.98 71.12)
 		)
 		(stroke
@@ -10598,6 +11207,16 @@
 			(type default)
 		)
 		(uuid "058c5ea0-f4c2-4b2f-b126-15e135aea6a6")
+	)
+	(wire
+		(pts
+			(xy 375.92 218.44) (xy 378.46 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d24ff3-9410-47f6-8d84-de1245eb17b4")
 	)
 	(wire
 		(pts
@@ -11321,6 +11940,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 233.68) (xy 375.92 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0494c6-a393-40b3-a6e9-aa4f83c07c68")
+	)
+	(wire
+		(pts
 			(xy 139.7 210.82) (xy 147.32 210.82)
 		)
 		(stroke
@@ -11501,6 +12130,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 226.06) (xy 378.46 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398b5579-a3e7-434d-a90c-31b149e19196")
+	)
+	(wire
+		(pts
 			(xy 78.74 58.42) (xy 78.74 76.2)
 		)
 		(stroke
@@ -11648,6 +12287,16 @@
 			(type default)
 		)
 		(uuid "40a95d76-cb54-496c-b138-e759d935442b")
+	)
+	(wire
+		(pts
+			(xy 375.92 231.14) (xy 375.92 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e13f62-cd92-4ce4-9d76-04093e92c7a5")
 	)
 	(wire
 		(pts
@@ -11848,6 +12497,16 @@
 			(type default)
 		)
 		(uuid "4f3e3556-7363-4f9e-99b2-199c10220f6e")
+	)
+	(wire
+		(pts
+			(xy 365.76 243.84) (xy 368.3 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faac0d4-0acb-4b75-8419-b016acb5b79f")
 	)
 	(wire
 		(pts
@@ -12138,6 +12797,16 @@
 			(type default)
 		)
 		(uuid "619dc251-90cb-4272-a7f6-1ee0443069d3")
+	)
+	(wire
+		(pts
+			(xy 381 226.06) (xy 378.46 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ceef5b-3b3f-4ddf-975b-d209e9e1af99")
 	)
 	(wire
 		(pts
@@ -12451,6 +13120,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 208.28) (xy 375.92 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e44ca-0d4f-4c56-8954-b5dfa8c5aa13")
+	)
+	(wire
+		(pts
 			(xy 223.52 73.66) (xy 220.98 73.66)
 		)
 		(stroke
@@ -12631,6 +13310,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 208.28) (xy 375.92 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8447c538-1e83-4aa1-bc64-6516564a3f11")
+	)
+	(wire
+		(pts
 			(xy 114.3 236.22) (xy 114.3 238.76)
 		)
 		(stroke
@@ -12658,6 +13347,16 @@
 			(type default)
 		)
 		(uuid "84902d16-fa92-45d5-84b4-511234a766af")
+	)
+	(wire
+		(pts
+			(xy 358.14 208.28) (xy 358.14 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cc140d-5299-4be5-b00d-ed7ef787c838")
 	)
 	(wire
 		(pts
@@ -13111,6 +13810,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 233.68) (xy 375.92 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0ef266-1bb0-4de9-9908-9bf567271f52")
+	)
+	(wire
+		(pts
 			(xy 109.22 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -13221,6 +13930,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 218.44) (xy 378.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f0c444-bb4b-4a71-ae65-f3ea26911a99")
+	)
+	(wire
+		(pts
 			(xy 205.74 134.62) (xy 228.6 134.62)
 		)
 		(stroke
@@ -13228,6 +13947,16 @@
 			(type default)
 		)
 		(uuid "a62ba92f-fb8e-483d-893a-b7492f8ebf08")
+	)
+	(wire
+		(pts
+			(xy 358.14 220.98) (xy 358.14 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7076c32-b0f6-4a9c-b1d3-cfe27c5dd59c")
 	)
 	(wire
 		(pts
@@ -13268,6 +13997,16 @@
 			(type default)
 		)
 		(uuid "aab9406e-8c9b-402c-ac15-ced81b0e033a")
+	)
+	(wire
+		(pts
+			(xy 375.92 218.44) (xy 375.92 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf63f6f-6766-40b4-b676-bf2918ea1264")
 	)
 	(wire
 		(pts
@@ -13448,6 +14187,16 @@
 			(type default)
 		)
 		(uuid "b855b024-45a7-4450-9038-210ebcb674d8")
+	)
+	(wire
+		(pts
+			(xy 358.14 205.74) (xy 358.14 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a83433-90be-4d5c-86e9-6c3518c0b2bf")
 	)
 	(wire
 		(pts
@@ -14111,6 +14860,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 223.52) (xy 381 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc13382b-9d57-4cf5-8bd1-3b9678807b7a")
+	)
+	(wire
+		(pts
 			(xy 139.7 218.44) (xy 147.32 218.44)
 		)
 		(stroke
@@ -14481,6 +15240,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 248.92) (xy 375.92 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17c6b32-b6ad-4918-826b-33e46dc9b2cb")
+	)
+	(wire
+		(pts
 			(xy 274.32 119.38) (xy 297.18 119.38)
 		)
 		(stroke
@@ -14679,6 +15448,16 @@
 		)
 		(uuid "ff46010e-f5f0-45e5-aa78-984ffd78de53")
 	)
+	(label "SPEAKER"
+		(at 205.74 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00911740-4f19-4b67-9aba-a87c1c766ff0")
+	)
 	(label "~{SW3}"
 		(at 228.6 261.62 0)
 		(effects
@@ -14708,6 +15487,16 @@
 			(justify left bottom)
 		)
 		(uuid "0989b74d-3159-45c9-8361-005b939bad5b")
+	)
+	(label "SPEAKER"
+		(at 337.82 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b4f571d-5dd0-48dd-b807-24244cd2cf31")
 	)
 	(label "INT_SDA"
 		(at 160.02 256.54 180)
@@ -14818,16 +15607,6 @@
 			(justify right bottom)
 		)
 		(uuid "2719a050-09c7-4001-b20f-49249a792476")
-	)
-	(label "PB0"
-		(at 205.74 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "291789c3-620d-4e9e-b48d-493545e348e7")
 	)
 	(label "SCLK"
 		(at 205.74 177.8 0)
@@ -15201,7 +15980,7 @@
 		)
 		(uuid "77ffd719-90ab-46fd-b351-4c432aa41067")
 	)
-	(label "PB0"
+	(label "PC5"
 		(at 325.12 142.24 0)
 		(effects
 			(font
@@ -15690,6 +16469,16 @@
 			(justify left bottom)
 		)
 		(uuid "deb5afcd-d422-4dc8-89cc-af7f44f5408d")
+	)
+	(label "PC5"
+		(at 205.74 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dee867b3-3cf0-4a55-81b5-82bc7a0501da")
 	)
 	(label "PA3"
 		(at 205.74 109.22 0)
@@ -16777,6 +17566,141 @@
 		)
 	)
 	(symbol
+		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1001F")
+		(at 360.68 243.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5114da-d9b8-4ec8-b0a6-3bb6e17f7f5b")
+		(property "Reference" "R32"
+			(at 360.68 237.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k0"
+			(at 360.68 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_WUT:R_0402_1005Metric"
+			(at 360.68 245.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k0 1% 0402 0.1W Resistor"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RK73H1ETTP1001F"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4mm"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Power" "0.1W"
+			(at 360.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43518f1f-b962-42bb-9f73-1ca5ca2fc937")
+		)
+		(pin "2"
+			(uuid "257f0b2e-c456-412d-96d8-d20c6dd199ac")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP33R0F")
 		(at 355.6 45.72 90)
 		(unit 1)
@@ -16946,7 +17870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16968,7 +17892,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +17985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 233.68 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -17083,7 +18007,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 233.68 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -17232,18 +18156,7 @@
 		(dnp no)
 		(uuid "0fc71097-78ac-4982-a68b-01a453824a83")
 		(property "Reference" "D1"
-			(at 57.15 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 57.15 78.74 0)
+			(at 55.88 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17253,7 +18166,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 58.42 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17275,7 +18199,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17446,7 +18370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17468,7 +18392,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17522,6 +18446,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 358.14 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1341b075-0e9d-42dd-a378-b872e7c291d8")
+		(property "Reference" "#PWR0118"
+			(at 358.14 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 358.14 227.33 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c59f876b-38d2-488b-b35f-43b089282ca8")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -19045,6 +20047,124 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_WUT:Fusheng_FUET-5020")
+		(at 386.08 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe9fd53-3ef1-4de9-9c62-8695b8fa146b")
+		(property "Reference" "LS1"
+			(at 391.16 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fusheng FUET-5020"
+			(at 391.16 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Audio_WUT:Fusheng_FUET-5020"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C391029.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FFJaUAcHT1RWA1IFQlZdVwZQEVhcUFdQRwIMBQICFAAxVlNeRFdcVVFQR1heVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFhfV1ZfWQkaCgg%3D"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5x5mm speaker"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Fusheng"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FUET-5020"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C391029"
+			(at 386.08 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "652305f7-2b85-494d-95f6-09065ed290d0")
+		)
+		(pin "3"
+			(uuid "5bb309f4-45f9-4c67-a4e2-7f37b5fa568b")
+		)
+		(pin "1"
+			(uuid "d8e15960-3870-4aa1-adc9-7d695aaedc49")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -20965,6 +22085,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 358.14 205.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "599a7c94-5095-44c5-83c5-409628311c43")
+		(property "Reference" "#PWR089"
+			(at 358.775 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 358.14 201.93 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9187f098-0da9-4a53-8c77-f143f072375e")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1001F")
 		(at 116.84 149.86 90)
 		(unit 1)
@@ -21346,18 +22545,7 @@
 		(dnp no)
 		(uuid "65d6ff9c-f967-4055-af16-6e9ff2b29706")
 		(property "Reference" "D4"
-			(at 72.39 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21367,7 +22555,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 73.66 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21389,7 +22588,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21704,18 +22903,7 @@
 		(dnp no)
 		(uuid "6a7c2a9e-f65a-43dc-a024-055a1ebf750a")
 		(property "Reference" "D3"
-			(at 67.31 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 67.31 78.74 0)
+			(at 66.04 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21725,7 +22913,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 68.58 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 68.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21747,7 +22946,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 68.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22088,18 +23287,7 @@
 		(dnp no)
 		(uuid "6dc62386-dc5c-4edd-9997-18e99cc8f4b1")
 		(property "Reference" "D5"
-			(at 77.47 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 77.47 78.74 0)
+			(at 76.2 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22109,7 +23297,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 78.74 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22131,7 +23330,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22588,7 +23787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_WUT:C_0603_1608Metric"
 			(at 76.2 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -25894,7 +27093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 177.8 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -25916,7 +27115,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 177.8 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -27216,7 +28415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 266.7 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -27238,7 +28437,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 266.7 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -27370,6 +28569,155 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aaa_capacitor_auto_wut:Murata GRM188R61C226ME01")
+		(at 358.14 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba8cad8b-b7a1-445b-869c-0662619723ea")
+		(property "Reference" "C51"
+			(at 361.95 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 361.95 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_WUT:C_0603_1608Metric"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R61C226ME01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813150721"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22u 20% 16V 0603 X5R Capacitor"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 361.95 218.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61C226ME01"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1mm"
+			(at 358.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7196ee51-7a16-43c1-8d17-8ee33dd7d1e5")
+		)
+		(pin "2"
+			(uuid "781d0511-63c4-4704-a243-e5e2e4330437")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -27999,6 +29347,122 @@
 		)
 	)
 	(symbol
+		(lib_id "diode_auto_wut:JSCJ B2020WS")
+		(at 375.92 227.33 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c6e3a9-5273-4190-bdad-48221f2d0b80")
+		(property "Reference" "D19"
+			(at 373.38 225.7424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2020WS"
+			(at 373.38 228.2824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-323"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/78412-B2020WS/C77284"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 2A Schottky Diode"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2020WS"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1mm"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38a88494-cfe3-40a9-82ff-422bc01b7b0d")
+		)
+		(pin "1"
+			(uuid "d75b4b24-b1c9-4f5a-8029-ed3846ba7dce")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "aaa_tvs_zener_auto_wut:hongjiacheng  H5VND5U")
 		(at 63.5 81.28 90)
 		(unit 1)
@@ -28010,18 +29474,7 @@
 		(dnp no)
 		(uuid "c346c08e-7fac-4d8c-9cad-125f6dec22a0")
 		(property "Reference" "D2"
-			(at 62.23 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28031,7 +29484,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 63.5 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28053,7 +29517,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28907,7 +30371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_WUT:C_0603_1608Metric"
 			(at 132.08 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -29167,18 +30631,7 @@
 		(dnp no)
 		(uuid "cc1af99c-053e-466b-8965-c71ae8515985")
 		(property "Reference" "D8"
-			(at 87.63 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 87.63 78.74 0)
+			(at 86.36 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29188,7 +30641,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 88.9 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29210,7 +30674,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29624,7 +31088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "IC_WUT:SOT-666"
 			(at 50.8 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -30426,7 +31890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse_WUT:Fuse_0603_1608Metric"
 			(at 83.82 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -31519,7 +32983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 208.28 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -31541,7 +33005,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 208.28 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -31748,18 +33212,7 @@
 		(dnp no)
 		(uuid "eaed3da2-b0e6-4e3d-a164-95da9d40dc9a")
 		(property "Reference" "D6"
-			(at 82.55 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 82.55 78.74 0)
+			(at 81.28 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31769,7 +33222,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Value" "5V"
+			(at 83.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_WUT:D_SOD-523"
 			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -31791,7 +33255,7 @@
 				)
 			)
 		)
-		(property "Description" "5V SOD523 TVS Diode"
+		(property "Description" "5V SOD-523 TVS Diode"
 			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -32380,6 +33844,124 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_WUT:nexperia_BC847C,215")
+		(at 375.92 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3411f9f-66aa-4f4a-9af5-590a2f462f88")
+		(property "Reference" "Q1"
+			(at 378.46 242.57 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847C,215"
+			(at 378.46 245.11 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IC_WUT:SOT-23"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C8664.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFJaUAcHT1RWA1IFQlZdVwZQEVhcUFdQRwIMBQICFAAxVlNeRFdcU1JQR1dWVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXQ1NbSQwSGg0%3D"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "45V, 100mA NPN transistor"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "nexperia"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BC847C,215"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Order #" "C8664"
+			(at 375.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26f5fd98-430a-4c70-b8e3-385aa7cf129f")
+		)
+		(pin "3"
+			(uuid "d83adc57-b54d-4775-a075-5e4563bf7716")
+		)
+		(pin "2"
+			(uuid "b3d430ba-6366-4c4f-abc0-2fdf1d9cbfa2")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -33028,6 +34610,84 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:0V")
+		(at 375.92 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb39f273-39eb-44ce-94e2-860a3463646b")
+		(property "Reference" "#PWR0123"
+			(at 375.92 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 375.92 255.27 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b3cca73-70fb-4300-9c82-3db7660d7e89")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)

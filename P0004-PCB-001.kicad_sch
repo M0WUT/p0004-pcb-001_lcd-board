@@ -3356,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b7f0cf-8abc-445f-b09c-6544fee16044")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR02"
 			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3416,7 +3416,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "#PWR0114")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3530,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33f09f98-b7b4-4ddb-936b-825f9d3c279d")
-		(property "Reference" "H9"
+		(property "Reference" "H6"
 			(at 96.52 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3608,7 +3608,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H9")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ae871e-5033-4d05-b50b-bbdcd28c0ab1")
-		(property "Reference" "H5"
+		(property "Reference" "H4"
 			(at 77.47 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3800,7 +3800,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H5")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be9ec66-fc39-4cf4-90ac-3e716f612e41")
-		(property "Reference" "H11"
+		(property "Reference" "H7"
 			(at 114.3 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3896,7 +3896,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H11")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3914,7 +3914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58520a1b-8c9a-4054-9499-fe1bf38ea425")
-		(property "Reference" "H8"
+		(property "Reference" "H5"
 			(at 96.52 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3992,7 +3992,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H8")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4010,7 +4010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670ed592-abd1-4491-89eb-b24e285d63b9")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 77.47 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4088,7 +4088,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8237fc22-5f91-4a2c-8464-43a306104d70")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR01"
 			(at 169.545 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -4166,7 +4166,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "#PWR0115")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4184,7 +4184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "850b282c-1cda-4581-8150-8dc1388aab8f")
-		(property "Reference" "H13"
+		(property "Reference" "H9"
 			(at 281.94 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4241,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H13")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34bb72f-c3df-4941-a40a-dafca3d250db")
-		(property "Reference" "H12"
+		(property "Reference" "H8"
 			(at 114.3 125.73 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4533,7 +4533,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "H12")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -4551,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda55a8f-dcc3-422a-9ab2-b1fec96c4c2d")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR03"
 			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4611,7 +4611,7 @@
 		(instances
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
-					(reference "#PWR0113")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

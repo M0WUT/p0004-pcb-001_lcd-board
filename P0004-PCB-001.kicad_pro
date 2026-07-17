@@ -534,7 +534,7 @@
         "tuning_profile": ""
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.4,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.146304,
         "microvia_diameter": 0.3,
@@ -825,7 +825,7 @@
         "uuid": "acdb93e6-9aa6-4a78-8a68-9d0ae3318f45"
       }
     ],
-    "used_designators": "L1-2,#PWR1-122,D1-18,C1-51,CN1-11,FB1-2,F1-4,H1-13,LD1,LS1,Q1,R1-57,SW1-4,U1-8,XT1,ZF1",
+    "used_designators": "L1-2,#PWR1-128,D1-18,C1-51,CN1-11,FB1-2,F1-4,H1-13,LD1,LS1,Q1,R1-57,SW1-4,U1-8,XT1,ZF1",
     "variants": []
   },
   "sheets": [

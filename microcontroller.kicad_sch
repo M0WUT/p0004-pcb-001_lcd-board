@@ -6868,193 +6868,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "aaa_ferrite_bead_auto_wut:Murata BLM15BD182SN1D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k8"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Inductor_WUT:L_0402_1005Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=BLM15BD182SN1%23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1k8@100MHz 100mA 0402 Ferrite Bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BLM15BD182SN1D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rated Current" "100mA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Murata BLM15BD182SN1D_0_1"
-				(polyline
-					(pts
-						(xy -0.889 0) (xy -1.2954 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2794 -1.8288) (xy -1.4986 -1.1176) (xy 0.2032 1.8288) (xy 1.4224 1.1176) (xy -0.2794 -1.8288)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.7874 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Murata BLM15BD182SN1D_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "aaa_resistor_auto_wut:KOA Speer RK73H1ETTP1000F"
 			(pin_numbers
 				(hide yes)
@@ -10286,6 +10099,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "GPO"
 		(exclude_from_sim no)
@@ -10341,6 +10269,17 @@
 			(justify left)
 		)
 		(uuid "2ce8773f-90ea-4747-8af0-553bee75ac9c")
+	)
+	(text "VDDA used for ADC,DAC,comp and op-amp.\nNone of these are used so minimal filtering is fine."
+		(exclude_from_sim no)
+		(at 257.81 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e6316ed-f68f-4bad-9cae-5e95bb538878")
 	)
 	(text "USB_OTG_FS"
 		(exclude_from_sim no)
@@ -10938,6 +10877,12 @@
 		(uuid "3358bbd5-1fa2-42b2-aff2-424c2f0a684e")
 	)
 	(junction
+		(at 281.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39e05415-665a-4278-869c-595b4b605a8e")
+	)
+	(junction
 		(at 210.82 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10954,6 +10899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "448b43d2-3744-435b-9d49-81299606166d")
+	)
+	(junction
+		(at 68.58 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db3a5ae-91ad-48a7-95b6-53b1acdcb8df")
 	)
 	(junction
 		(at 330.2 177.8)
@@ -11214,10 +11165,10 @@
 		(uuid "cec8e0ae-abe4-41ec-966c-510776ce06ac")
 	)
 	(junction
-		(at 302.26 205.74)
+		(at 302.26 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db1a1ce4-f8f5-4f3a-bb82-410a3a9e4c02")
+		(uuid "cf9bbd96-e880-4228-9a14-4edae02d23f3")
 	)
 	(junction
 		(at 269.24 60.96)
@@ -11242,12 +11193,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e49d595f-9a4a-46d7-8713-444bed298b40")
-	)
-	(junction
-		(at 281.94 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5179810-42a4-42a5-9d27-b453abe7c9af")
 	)
 	(junction
 		(at 73.66 88.9)
@@ -11304,6 +11249,26 @@
 		(uuid "fd40544d-80b5-49c7-bc64-2e6e60dacde3")
 	)
 	(no_connect
+		(at 274.32 180.34)
+		(uuid "04865020-5c94-4001-a76e-b640a585ad44")
+	)
+	(no_connect
+		(at 274.32 127)
+		(uuid "28d06b46-ffc7-4382-9f1d-b23f527cb43b")
+	)
+	(no_connect
+		(at 274.32 119.38)
+		(uuid "2db0ed48-31d8-48b7-be86-d3cfabe8a0ea")
+	)
+	(no_connect
+		(at 274.32 104.14)
+		(uuid "3606e6c5-4fd0-4b1a-8d1b-8ec7358e70d5")
+	)
+	(no_connect
+		(at 274.32 121.92)
+		(uuid "4465774c-158d-4587-be82-a270184b2655")
+	)
+	(no_connect
 		(at 48.26 60.96)
 		(uuid "5ba878ad-5c0a-414e-9fc2-970baa258bba")
 	)
@@ -11316,6 +11281,14 @@
 		(uuid "5de4bbbb-2817-456f-82bb-25474dd60a53")
 	)
 	(no_connect
+		(at 274.32 109.22)
+		(uuid "5ef6b614-0aa5-4f93-bd20-d906c97676d0")
+	)
+	(no_connect
+		(at 274.32 182.88)
+		(uuid "6d843364-6e4a-4e47-9c47-20f40e16a835")
+	)
+	(no_connect
 		(at 271.78 264.16)
 		(uuid "6e61a0c6-3f12-4832-805e-df824c56e347")
 	)
@@ -11324,16 +11297,52 @@
 		(uuid "6f3353b0-9f0f-4ad7-922a-fb686f03acc6")
 	)
 	(no_connect
+		(at 274.32 111.76)
+		(uuid "71600879-5cff-461e-9866-90b672bbba90")
+	)
+	(no_connect
+		(at 274.32 190.5)
+		(uuid "805b1a50-0a29-47ca-b5af-549b863ef864")
+	)
+	(no_connect
+		(at 274.32 101.6)
+		(uuid "9daf5245-fa0a-424e-803b-c9fb0118e988")
+	)
+	(no_connect
 		(at 213.36 261.62)
 		(uuid "9f753c59-0c45-488c-9ede-b56cc0352a23")
+	)
+	(no_connect
+		(at 274.32 187.96)
+		(uuid "ab2897b6-46ce-425f-bc2c-4080bff0214c")
 	)
 	(no_connect
 		(at 182.88 264.16)
 		(uuid "ae2be570-7b9f-401e-a315-aceb82e919ca")
 	)
 	(no_connect
+		(at 228.6 198.12)
+		(uuid "b396422d-eab6-44da-8eea-395b324c43dc")
+	)
+	(no_connect
+		(at 274.32 162.56)
+		(uuid "b84558b0-0a3a-4b43-9a57-2e8d5464b656")
+	)
+	(no_connect
+		(at 274.32 106.68)
+		(uuid "bec2848e-3bfb-4f1c-a7a5-10ed1d40ceac")
+	)
+	(no_connect
+		(at 274.32 124.46)
+		(uuid "c4c3feba-7f3f-4707-9cc8-2c4fa36ebd6d")
+	)
+	(no_connect
 		(at 48.26 63.5)
 		(uuid "c6fa601a-e95c-4bdd-b563-269cb7b66046")
+	)
+	(no_connect
+		(at 228.6 139.7)
+		(uuid "cf90588f-5e1e-4c91-beb9-70b792c97930")
 	)
 	(no_connect
 		(at 297.18 157.48)
@@ -11342,6 +11351,10 @@
 	(no_connect
 		(at 48.26 76.2)
 		(uuid "f0a8b5cf-bdb5-4d04-9441-2b8461a6f099")
+	)
+	(no_connect
+		(at 274.32 172.72)
+		(uuid "f2b6ac9c-566d-42df-8e84-5fdd0eed0e0b")
 	)
 	(bus_entry
 		(at 205.74 177.8)
@@ -11611,13 +11624,13 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 182.88) (xy 297.18 182.88)
+			(xy 289.56 208.28) (xy 289.56 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0bc8aa-2d5b-42b1-a415-33ea33c24100")
+		(uuid "0e57d03e-280d-46d2-a2ac-8595f831ec9f")
 	)
 	(wire
 		(pts
@@ -11758,6 +11771,16 @@
 			(type default)
 		)
 		(uuid "1659b59f-5421-4bca-aab8-5f343e4b59e2")
+	)
+	(wire
+		(pts
+			(xy 289.56 208.28) (xy 304.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1680386f-d92d-4a4d-bc1e-054e3a7c2abf")
 	)
 	(wire
 		(pts
@@ -12241,16 +12264,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 127) (xy 297.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f300872-85a8-4e6e-930f-cfec75b549dd")
-	)
-	(wire
-		(pts
 			(xy 381 40.64) (xy 381 43.18)
 		)
 		(stroke
@@ -12298,16 +12311,6 @@
 			(type default)
 		)
 		(uuid "32074673-b028-4512-959b-bf0a367c33c9")
-	)
-	(wire
-		(pts
-			(xy 205.74 139.7) (xy 228.6 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35870dbf-ac25-4333-98c6-4bf7e64a1d38")
 	)
 	(wire
 		(pts
@@ -12601,13 +12604,13 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 124.46) (xy 297.18 124.46)
+			(xy 284.48 60.96) (xy 281.94 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4397a976-57e4-4d9d-8d19-acbffccc2d13")
+		(uuid "42ca4227-8a6e-4bd6-806e-e4f5b59cd99a")
 	)
 	(wire
 		(pts
@@ -12941,7 +12944,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 205.74) (xy 274.32 205.74)
+			(xy 289.56 205.74) (xy 274.32 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12958,6 +12961,16 @@
 			(type default)
 		)
 		(uuid "5a57870e-7b1a-4315-a396-0e9627554318")
+	)
+	(wire
+		(pts
+			(xy 284.48 58.42) (xy 284.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac81c4d-0fcb-4434-a9dc-6a94705dcb3f")
 	)
 	(wire
 		(pts
@@ -13048,16 +13061,6 @@
 			(type default)
 		)
 		(uuid "5fa8b667-fe44-4299-9763-1e225b421a98")
-	)
-	(wire
-		(pts
-			(xy 287.02 60.96) (xy 281.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff3d7d9-6b95-46f1-a2b9-ccbaa34cfb8f")
 	)
 	(wire
 		(pts
@@ -13158,16 +13161,6 @@
 			(type default)
 		)
 		(uuid "6671c195-69ce-4af5-b376-d3f690e1ee8c")
-	)
-	(wire
-		(pts
-			(xy 274.32 101.6) (xy 297.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668674c6-8898-4ee4-8e86-9b11552aa291")
 	)
 	(wire
 		(pts
@@ -13521,16 +13514,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 109.22) (xy 297.18 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7973f791-2da0-4958-b959-d54dbb87bba6")
-	)
-	(wire
-		(pts
 			(xy 284.48 261.62) (xy 281.94 261.62)
 		)
 		(stroke
@@ -13728,16 +13711,6 @@
 			(type default)
 		)
 		(uuid "86953133-2fa8-43a8-a2d9-acd9043f892c")
-	)
-	(wire
-		(pts
-			(xy 274.32 180.34) (xy 297.18 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87412156-0283-45ec-93a4-9f7894efd51a")
 	)
 	(wire
 		(pts
@@ -14011,16 +13984,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 121.92) (xy 297.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95eeeb38-6614-48b6-b953-cfb10c4f73d5")
-	)
-	(wire
-		(pts
 			(xy 223.52 73.66) (xy 243.84 73.66)
 		)
 		(stroke
@@ -14131,16 +14094,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 205.74) (xy 309.88 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d15845f-7a42-4f6c-9df7-187abca21df1")
-	)
-	(wire
-		(pts
 			(xy 381 160.02) (xy 381 162.56)
 		)
 		(stroke
@@ -14228,6 +14181,16 @@
 			(type default)
 		)
 		(uuid "a1bab72c-e424-4e54-88c1-a358fb1ca1ef")
+	)
+	(wire
+		(pts
+			(xy 304.8 205.74) (xy 304.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c6cfef-46e9-434a-ac3c-7091290a10b8")
 	)
 	(wire
 		(pts
@@ -14581,7 +14544,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 215.9) (xy 302.26 205.74)
+			(xy 302.26 215.9) (xy 302.26 208.28)
 		)
 		(stroke
 			(width 0)
@@ -14618,16 +14581,6 @@
 			(type default)
 		)
 		(uuid "be7b0783-762c-486e-a4e9-2ac07ecd36a1")
-	)
-	(wire
-		(pts
-			(xy 205.74 198.12) (xy 228.6 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be912fa5-1771-4286-813c-981f1e63bbed")
 	)
 	(wire
 		(pts
@@ -15261,16 +15214,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 172.72) (xy 297.18 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc752d8b-11e6-4837-b1b3-cf0a3cfa2781")
-	)
-	(wire
-		(pts
 			(xy 205.74 187.96) (xy 228.6 187.96)
 		)
 		(stroke
@@ -15461,16 +15404,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 162.56) (xy 297.18 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ce6d76-2bda-463a-8c26-d6d94774ad8e")
-	)
-	(wire
-		(pts
 			(xy 205.74 132.08) (xy 228.6 132.08)
 		)
 		(stroke
@@ -15498,16 +15431,6 @@
 			(type default)
 		)
 		(uuid "e73da4d5-a85f-4908-933d-87e682ec5efd")
-	)
-	(wire
-		(pts
-			(xy 274.32 104.14) (xy 297.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f9fb8a-85fe-41c9-a014-6594ca3e1a85")
 	)
 	(wire
 		(pts
@@ -15641,16 +15564,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 119.38) (xy 297.18 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f433ff3f-c538-4834-8afd-87a7b78fbfaf")
-	)
-	(wire
-		(pts
 			(xy 223.52 264.16) (xy 226.06 264.16)
 		)
 		(stroke
@@ -15751,16 +15664,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 58.42) (xy 299.72 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8f45e4-98ad-4b50-86ff-158d62547c60")
-	)
-	(wire
-		(pts
 			(xy 144.78 223.52) (xy 144.78 203.2)
 		)
 		(stroke
@@ -15778,26 +15681,6 @@
 			(type default)
 		)
 		(uuid "fb79a391-244f-4678-8bd4-966d6e533c4d")
-	)
-	(wire
-		(pts
-			(xy 292.1 60.96) (xy 299.72 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf46f2d-d6da-4ea5-a9ad-283597766695")
-	)
-	(wire
-		(pts
-			(xy 274.32 111.76) (xy 297.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbfa30e4-82b8-4435-a2f7-5bfef63c8e48")
 	)
 	(bus
 		(pts
@@ -16129,17 +16012,6 @@
 		)
 		(uuid "485f41f3-bd60-48cb-b855-0238503e9ec6")
 	)
-	(label "VDDA"
-		(at 259.08 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ae49bf5-2b00-4cbd-9427-6864375a409e")
-	)
 	(label "RGB_B"
 		(at 135.89 154.94 180)
 		(effects
@@ -16149,16 +16021,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e8ef924-f5ce-4bdb-8ed4-95967b6d8aca")
-	)
-	(label "VDDA"
-		(at 309.88 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52ff20ca-d8b2-4f32-b78a-9c32fa1122b6")
 	)
 	(label "~{SW4}"
 		(at 261.62 261.62 0)
@@ -16239,16 +16101,6 @@
 			(justify right bottom)
 		)
 		(uuid "603b53f2-05ac-4c03-abf8-e03f0addcb54")
-	)
-	(label ""
-		(at 297.18 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6272ef4f-fe47-4349-8d1d-a062484790d2")
 	)
 	(label "~{SD_CARD_DET}"
 		(at 109.22 220.98 180)
@@ -17032,6 +16884,28 @@
 		)
 		(uuid "19574fa6-f2a4-49aa-a0dc-e6f7e2762871")
 	)
+	(hierarchical_label "INT_SCL"
+		(shape output)
+		(at 297.18 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a23e2a3-80c8-4659-ace8-b14105a5f011")
+	)
+	(hierarchical_label "INT_SDA"
+		(shape bidirectional)
+		(at 297.18 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "491a4871-96d6-4717-bae9-361ff703c1a9")
+	)
 	(hierarchical_label "{SPI}"
 		(shape bidirectional)
 		(at 180.34 195.58 180)
@@ -17802,6 +17676,85 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_WUT:3V3")
+		(at 304.8 205.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08da6c72-38b4-468d-b4d6-9c379fae4ee9")
+		(property "Reference" "#PWR0129"
+			(at 305.435 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 304.8 201.93 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43916306-e2cf-4b9c-a125-a33d5f7c3bdf")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -19135,7 +19088,7 @@
 	)
 	(symbol
 		(lib_id "Power_WUT:3V3")
-		(at 299.72 58.42 0)
+		(at 284.48 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19146,7 +19099,7 @@
 		(fields_autoplaced yes)
 		(uuid "1755693d-4f05-495d-b803-acc315645abd")
 		(property "Reference" "#PWR074"
-			(at 299.085 61.595 0)
+			(at 283.845 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19157,7 +19110,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 299.72 54.61 0)
+			(at 284.48 54.61 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19167,7 +19120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 58.42 0)
+			(at 284.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19178,7 +19131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 58.42 0)
+			(at 284.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19189,7 +19142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.72 58.42 0)
+			(at 284.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25599,6 +25552,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8454187e-e3a4-43e7-84b6-4937cfa738ef")
+		(property "Reference" "#FLG07"
+			(at 68.58 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f13e58-a304-4241-91ab-c4b1c562af24")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_WUT:0V")
 		(at 50.8 124.46 0)
 		(unit 1)
@@ -27645,129 +27677,6 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "aaa_ferrite_bead_auto_wut:Murata BLM15BD182SN1D")
-		(at 289.56 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d4f2dc6-18f4-4d6a-a5d7-8699c314f5b7")
-		(property "Reference" "FB2"
-			(at 284.48 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k8"
-			(at 294.64 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_WUT:L_0402_1005Metric"
-			(at 287.782 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=BLM15BD182SN1%23"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k8@100MHz 100mA 0402 Ferrite Bead"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BLM15BD182SN1D"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.5mm"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rated Current" "100mA"
-			(at 289.56 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d104ec3-1128-4ea0-a8de-c13b7d49fbbb")
-		)
-		(pin "2"
-			(uuid "885ad839-951c-40c4-b99a-0fd7e7dfbd7f")
-		)
-		(instances
-			(project "P0004-PCB-001"
-				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/a36ad431-c50e-45e1-982c-a7ffb7390ea7"
-					(reference "FB2")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,9 @@
+(version 1)
+(rule "Zone clearance for USB and Ethernet"
+  (constraint clearance (min 0.3mm))
+  (condition "A.Type == 'Zone' && (B.NetClass == 'USB_L3' || B.NetClass == 'USB_L5' || B.NetClass == 'Ethernet')")
+)
+(rule "TMP102_0p15mm_Clearance"
+    (constraint clearance (min 0.15mm))
+    (condition "A.insideArea('TMP102') && B.insideArea('TMP102')")
+)

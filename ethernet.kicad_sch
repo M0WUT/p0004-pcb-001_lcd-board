@@ -2443,6 +2443,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "resistor_auto_wut:KOA Speer RK73H1ETTP1004F"
 			(pin_numbers
 				(hide yes)
@@ -3180,6 +3295,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Current in 100M TX = 132mA"
+		(exclude_from_sim no)
+		(at 278.13 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32c23a73-5a41-41d3-9281-c0436a3521ac")
+	)
 	(text "Would normally series terminate MISO\nbut that forces tracking close to crystal."
 		(exclude_from_sim no)
 		(at 153.67 118.11 0)
@@ -3295,6 +3420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81ad33e7-a544-4d52-9303-de1a82ef4a71")
+	)
+	(junction
+		(at 218.44 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f88f05-ed18-4abc-8e4f-be1316c79d3d")
 	)
 	(junction
 		(at 167.64 109.22)
@@ -4259,6 +4390,16 @@
 			(type default)
 		)
 		(uuid "a2fb3b38-3824-4190-8440-72c2bfe80c37")
+	)
+	(wire
+		(pts
+			(xy 218.44 73.66) (xy 218.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62a71b9-8efa-4ff0-bc0b-821e2ee64f3d")
 	)
 	(wire
 		(pts
@@ -6940,7 +7081,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 228.6 116.84) (xy 264.16 116.84) (xy 264.16 132.08) (xy 228.6 132.08)
+				(xy 228.6 116.84) (xy 289.56 116.84) (xy 289.56 132.08) (xy 228.6 132.08)
 			)
 			(stroke
 				(width 0)
@@ -6964,7 +7105,7 @@
 			(justify right bottom)
 		)
 		(uuid "c92c93b4-1bac-49ef-b03f-df2f24dd1d36")
-		(property "Netclass" "Ethernet Diff Pair"
+		(property "Netclass" "Ethernet"
 			(at 262.3185 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,6 +8161,85 @@
 			(project "P0004-PCB-001"
 				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 218.44 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c9b4f36-e513-424a-b2cf-9e15794048b9")
+		(property "Reference" "#FLG08"
+			(at 218.44 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 218.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ff3a41-ba4f-4908-9f9c-ab5faedce7ab")
+		)
+		(instances
+			(project "P0004-PCB-001"
+				(path "/acdb93e6-9aa6-4a78-8a68-9d0ae3318f45/c297e570-2dc0-430e-8e38-cdf697c9ef1a"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
